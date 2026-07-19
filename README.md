@@ -18,4 +18,5 @@ PACT's Lineup!
 - The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, much improved ammunition (3BM32 by default, 3BM26 by default for the AV and 3BK18M for both) and most importantly, a large layer of Kontakt-1 ERA across the turret, side skirts and frontal armour! Massively improving its performance against ATGM's and infantry-launched AT weapons.
 
 
-- T64BVU The USSR's attempt at a Bulat... #(NOT OUT YET)
+- T64BVU The USSR's attempt at a Bulat...
+- # NOT OUT YET
