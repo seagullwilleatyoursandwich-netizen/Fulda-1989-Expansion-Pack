@@ -9,7 +9,7 @@ In this fictional scenario, based on the original games' 1985 setting, instead o
 NATO's Lineup!
 - The M60 receives some love! At a spawnrate of around 30-40% (dependent on the original m60 type), the Gulf War ERA-retrofit M1 package for the M60A1 and M60A3 has arrived to GHPC! Although its chemical energy stopping power is slightly inferior to the soviet's Kontakt-1, it provides double the KE protection compared to Kontakt-1! 
 This should make the M60 a more usable asset on the battlefield, especially with PACT equipping itself with its own ERA and advanced tanks.
-# THIS IS CURRENTLY NOT OUT YET! 
+# The M60 ERA Package is currently in development.
 
 - N/A TO BE DETERMINED
 
@@ -19,4 +19,4 @@ PACT's Lineup!
 
 
 - T64BVU The USSR's attempt at a Bulat...
-- # NOT OUT YET
+- # The T64BVU is currently a WIP/Concept.
