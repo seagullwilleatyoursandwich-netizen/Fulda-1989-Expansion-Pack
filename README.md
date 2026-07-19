@@ -1,99 +1,21 @@
-# Attributions
-Turret model for BTR-60A from https://sketchfab.com/3d-models/btr-80a-5e4b7a1b18c04ac68fcd76036feebfc8 by Alexandr Zhilkin
+# Attributions/Credits 
+- ATLAS and Pact Increased Lethality for the ERA framework, ERA & numerous assets used for the T64BV/AV/BVU.
 
-Kornet launchers and Sodema sight models for the BMP-2M from https://marketplace.vigilante.us/product/bmp2m-east/ by Vigilante
+# Fulda 1989 | Expansion Pack for Gunner, HEAT, PC! 
 
-# Pact Increased Lethality
+Hello! Thank you for downloading, this modpack aims to expand the GHPC lineup by adding tanks all the way up to 1989. 
+In this fictional scenario, based on the original games' 1985 setting, instead of the cold war kicking off immediately both NATO and the USSR begin small skirmishes and proxies for the next few years, massively accelerating development of known tanks, implementations of previously scrapped technologies like Agava-1 Thermal imagers for the soviets, etc. 
 
-All features listed below can be toggled on/off.
+NATO's Lineup!
+- The M60 receives some love! At a spawnrate of around 30-40% (dependent on the original m60 type), the Gulf War ERA-retrofit M1 package for the M60A1 and M60A3 has arrived to GHPC! Although its chemical energy stopping power is slightly inferior to the soviet's Kontakt-1, it provides double the KE protection compared to Kontakt-1! 
+This should make the M60 a more usable asset on the battlefield, especially with PACT equipping itself with its own ERA and advanced tanks.
+# THIS IS CURRENTLY NOT OUT YET! 
 
-Correct installation of this mod:
+- N/A TO BE DETERMINED
 
-![image](https://github.com/thebeninator/Pact-Increased-Lethality/assets/89621837/e31193eb-6cd2-4efa-a93c-f17528af5e9e)
-
-To regenerate the config:
-1) Delete this mod's section
-2) Launch the game
-3) Quit the game using the main menu exit button
-
-# T-72
-T-72B/T-72B3 Gunnery Guide: https://www.youtube.com/watch?v=dvheOjTjuSg
+PACT's Lineup! 
+- The T64 *finally* receives an upgrade! Introducing the T-64BV, T-64B1V and the T-64AV! These packages aim to improve survivability of the USSR's most abundant tank type in Fulda.
+- The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, much improved ammunition (3BM32 by default, 3BM26 by default for the AV and 3BK18M for both) and most importantly, a large layer of Kontakt-1 ERA across the turret, side skirts and frontal armour! Massively improving its performance against ATGM's and infantry-launched AT weapons.
 
 
-\* Not required but recommended
-  
-| Soviet / NVA             |                   |                   |                  |                  |
-|--------------------------|-------------------|-------------------|------------------|------------------|
-| T-72AV/T-72M1V         | Kontakt 1         |                   |                  |                  |
-| T-72B obr.1984/T-72M1M | Super Comp Cheeks | *TPN-3            | *Lead Calculator |                  |
-| T-72B obr.1985/T-72M1M | Kontakt-1         | Super Comp Cheeks | *TPN-3           | *Lead Calculator |
-| T-72B obr.1989/T-72M1M | Kontakt-5         | Super Comp Cheeks | *TPN-3           | *Lead Calculator |
-| T-72B1MS                 | Kontakt-1         | Super Comp Cheeks | Super FCS        |                  |
-| T-72B3                   | Kontakt-5         | Super Comp Cheeks | Super FCS        |                  |
-| T-72B3M                  | Kontakt-5         | Super Comp Cheeks | Super FCS        | UBH Package      |
-
-
-T-72Ms will be automatically be converted to T-72M1s if equipped with Kontakt-1/5
-
-T-72AV, T-72B obr.1984/85/89, T-72B3, T72B3M
-
-![Screenshot_2](https://github.com/user-attachments/assets/8c01c43f-b7b0-46dc-8594-ec5917023588)
-![image](https://github.com/user-attachments/assets/bf97e6fb-5518-460f-9a75-d3728ae0e975)
-![Screenshot_1](https://github.com/user-attachments/assets/d94852cc-31b4-4bd9-81e8-0b4fe6d8487b)
-![image](https://github.com/user-attachments/assets/cf2e6076-e3e9-4635-a2ad-0ac0a71e7c2e)
-![image](https://github.com/user-attachments/assets/c2c2c6eb-b3fe-494a-b363-6c3be4a88f0c)
-![image](https://github.com/user-attachments/assets/5c442f56-fa6e-4437-9521-bda3439c1ac1)
-
-# T-80
-T-80BV, T-80U
-
-![image](https://github.com/user-attachments/assets/53dcae33-b917-4d71-a12a-4bf1081b9820)
-![image](https://github.com/user-attachments/assets/99dd7066-a4d8-4ca9-b599-e7d56484be55)
-
-
-# BDD Applique Armour
-- Can be equipped on the T-55 and T-62
-- Composite armour that is effective against HEAT rounds and lesser AP rounds
-- Bonus rubber side skirts
-
-<img width="1279" height="773" alt="image" src="https://github.com/user-attachments/assets/c5f7416c-5ea5-4e8f-9076-599305715e1c" />
-<img width="1162" height="682" alt="image" src="https://github.com/user-attachments/assets/d16318b6-c437-41d4-93c0-634e47adaeed" />
-
-# T-55
-- 3BK17M HEAT-FS-T
-  - Better ballistics and negligibly better penetration compared to 3BK5M
-- 9M117 Bastion GLATGM
-  - Replaces 3OF412, has its own sight with fixed 8x magnification
-- Better Stabilizer
-  - Less reticle blur & shake while on the move 
-- Laser Rangefinder
-  - Only gives range (you will need to set the range manually)
- 
-![Screenshot_3](https://github.com/thebeninator/Pact-Increased-Lethality/assets/89621837/9c494b20-3291-40f4-9be5-f75ac587caa4)
-![Screenshot_8](https://github.com/thebeninator/Pact-Increased-Lethality/assets/89621837/e1979d6a-327c-47e5-94a6-acf1d42c7d59)
-<img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/81794233-d357-4375-84f8-f1df6719fcec" />
-<img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/9fdcaaa6-7096-4b09-8145-7c7e5cfc1549" />
-
-# BMP-2
-- 3UBR8 APDS-T
-  - Better penetration and ballistics compared to 3UBR6 APBC-T
-- 3UOF8 HEFI
-  - Tracerless, more explosive filler compared to 3UOR6
-  - Used in a mixed belt with 3UOR6
-- 9M113AS Konkurs
-  - Overfly-top-attack ATGM
-  - Dual EFP warhead
-- 9M133 Kornet
-
-![image](https://github.com/user-attachments/assets/1ebbfd0a-10dc-4248-af68-dd5dc13a156d)
-
-# BTR-60
-- Stabilizer
-- BTR-60A Conversion
-  - 30mm 2A72 Autocannon
-  - Access to the same rounds as the BMP-2
-  - Fixed 6x magnification day sight and passive night vision sight
-
-![BTR60a](https://github.com/thebeninator/Pact-Increased-Lethality/assets/89621837/7eac03c8-98f1-4196-967a-825dd6ba6686)
-
-...and more
+- T64BVU The USSR's attempt at a Bulat... #(NOT OUT YET)
