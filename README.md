@@ -1,3 +1,4 @@
+
 # Attributions/Credits 
 - ATLAS and Pact Increased Lethality for the ERA framework, ERA & numerous assets used for the T64BV/AV/BVU.
 
@@ -16,7 +17,7 @@ This should make the M60 a more usable asset on the battlefield, especially with
 PACT's Lineup! 
 - The T64 *finally* receives an upgrade! Introducing the T-64BV, T-64B1V and the T-64AV! These packages aim to improve survivability of the USSR's most abundant tank type in Fulda.
 - The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, much improved ammunition (3BM32 by default, 3BM26 by default for the AV and 3BK18M for both) and most importantly, a large layer of Kontakt-1 ERA across the turret, side skirts and frontal armour! Massively improving its performance against ATGM's and infantry-launched AT weapons.
-
+<img width="2560" height="1440" alt="2026-07-19T202820" src="https://github.com/user-attachments/assets/0d7bd11a-0047-456a-8646-3519a7299d55" />
 
 - T64BVU The USSR's attempt at a Bulat...
 - # The T64BVU is currently a WIP/Concept.
