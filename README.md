@@ -5,7 +5,7 @@
 # Fulda 1989 | Expansion Pack for Gunner, HEAT, PC! 
 
 Hello! This modpack aims to expand the GHPC lineup by adding tanks all the way up to late 1989. 
-In this fictional scenario, based on the original games' 1985 setting, instead of the cold war kicking off immediately both NATO and the USSR begin small skirmishes and proxies for the next few years, massively accelerating development of known tanks, implementations of previously scrapped technologies like Agava-1 Thermal imagers for the soviets, etc. 
+In this fictional scenario, based on the original games' 1985 setting, instead of the cold war kicking off immediately both NATO and the USSR begin small skirmishes and proxies for the next few years, massively accelerating development of known tanks and implementations of previously scrapped technologies like Agava-1 Thermal imagers for the soviets, etc. 
 
 NATO's Lineup!
 - The M60 receives some love! At a spawnrate of around 30-40% (dependent on the original m60 type), the Gulf War ERA-retrofit M1 package for the M60A1 and M60A3 has arrived to GHPC! Although its chemical energy stopping power is slightly inferior to the soviet's Kontakt-1, it provides double the KE protection compared to Kontakt-1! 
