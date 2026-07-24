@@ -13,7 +13,7 @@ M60A1/3 ERA - The M60 receives some love! At a spawnrate of around 30-40% (depen
 This should make the M60 a more usable asset on the battlefield, especially with PACT equipping itself with its own ERA and advanced tanks.
 # The M60 ERA Package is currently in development.
 
-- N/A TO BE DETERMINED
+<img width="2552" height="1222" alt="image" src="https://github.com/user-attachments/assets/68abd81d-d531-4c54-88f3-cb94b7af0c3f" />
 
 PACT's Lineup! 
 
