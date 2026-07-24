@@ -16,9 +16,7 @@ This should make the M60 a more usable asset on the battlefield, especially with
 
 <img width="2552" height="1222" alt="image" src="https://github.com/user-attachments/assets/68abd81d-d531-4c54-88f3-cb94b7af0c3f" />
 
-- # Leopard 2A4 - The Bundeswher's strongest asset. (TBD)
-
-- The Leopard 2a4 saw service just after 1985, during 1986 all the way till its second batch in the late 80's, here, it receives DM33 ammunition and some slight improvements, putting it on-par with the M1A1HA's M829.
+- # Leopard 2A4  (if they add the leopard 2 first LOL)
 
 # PACT's Lineup! 
 
