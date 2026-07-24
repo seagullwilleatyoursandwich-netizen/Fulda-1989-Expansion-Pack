@@ -1,6 +1,6 @@
 
 # Attributions/Credits 
-- ATLAS and Pact Increased Lethality for the ERA framework, ERA & numerous assets used for the T64BV/AV/BVU.
+- ATLAS and his mod, Pact Increased Lethality, for the ERA framework, & numerous assets used for the T64BV/AV/BVU.
 
 # Fulda 1989 | Expansion Pack for Gunner, HEAT, PC! 
 
