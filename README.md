@@ -16,7 +16,8 @@ This should make the M60 a more usable asset on the battlefield, especially with
 
 <img width="2552" height="1222" alt="image" src="https://github.com/user-attachments/assets/68abd81d-d531-4c54-88f3-cb94b7af0c3f" />
 
-- # Leopard 2A4  (if they add the leopard 2 first LOL)
+- # Leopard 2A4  (TBD - After GHPC's Leopard 2 is released)
+- Since the base leopard 2's arent in GHPC yet, I've marked this down as a future project I'd like to add.
 
 # PACT's Lineup! 
 
