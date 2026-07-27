@@ -12,9 +12,8 @@ In this fictional scenario, based on the original games' 1985 setting, instead o
 - # M60A1/3 ERA - The Gulf War came early. 
 - The M60 receives some love! At a spawnrate of around 30-70% (dependent on the original m60 type), the Gulf War ERA-retrofit M1 package for the M60A1 and M60A3 has arrived to GHPC! Although its chemical energy stopping power is slightly inferior to the soviet's Kontakt-1, it provides double the KE protection compared to Kontakt-1! 
 This should make the M60 a more usable asset on the battlefield, especially with PACT equipping itself with its own ERA and advanced tanks.
-# The M60 ERA Package is currently in development.
+<img width="2560" height="1440" alt="2026-07-25T203232" src="https://github.com/user-attachments/assets/4cf6b44a-9a67-4a59-9d21-005420fbcf24" />
 
-<img width="2552" height="1222" alt="image" src="https://github.com/user-attachments/assets/68abd81d-d531-4c54-88f3-cb94b7af0c3f" />
 
 - # Leopard 2A4  (TBD - After GHPC's Leopard 2 is released)
 - Since the base leopard 2's arent in GHPC yet, I've marked this down as a future project I'd like to add.
