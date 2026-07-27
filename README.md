@@ -10,7 +10,7 @@ In this fictional scenario, based on the original games' 1985 setting, instead o
 # NATO's Lineup!
 
 - # M60A1/3 ERA - The Gulf War came early. 
-- The M60 receives some love! At a spawnrate of around 30-70% (dependent on the original m60 type), the Gulf War ERA-retrofit M1 package for the M60A1 and M60A3 has arrived to GHPC! Although its chemical energy stopping power is slightly inferior to the soviet's Kontakt-1, it provides double the KE protection compared to Kontakt-1! 
+- The M60 receives some love! At a spawnrate of around 30-70% (dependent on the original m60 type), the Gulf War ERA-retrofit M1 package for the M60A1 and M60A3 has arrived to GHPC! Its chemical energy stopping power is slightly inferior to the soviet's Kontakt-5, it provides double the KE protection, and a little extra CE compared to Kontakt-1! 
 This should make the M60 a more usable asset on the battlefield, especially with PACT equipping itself with its own ERA and advanced tanks.
 <img width="2560" height="1440" alt="2026-07-25T203232" src="https://github.com/user-attachments/assets/4cf6b44a-9a67-4a59-9d21-005420fbcf24" />
 
