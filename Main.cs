@@ -14,7 +14,7 @@ using Fulda1989;
 using ModUtil;
 using FMODUnity;
 
-[assembly: MelonInfo(typeof(Mod), "Fulda 1989 | Expansion Pack", "1.0.0", "ZironTheDerg")]
+[assembly: MelonInfo(typeof(Mod), "Fulda 1989 | Expansion Pack", "1.1.4", "ZironTheDerg")]
 [assembly: MelonGame("Radian Simulations LLC", "GHPC")]
 
 namespace Fulda1989
