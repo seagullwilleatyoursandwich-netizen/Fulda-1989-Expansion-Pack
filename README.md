@@ -27,7 +27,8 @@ The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, mu
 <img width="2560" height="1440" alt="2026-07-19T202820" src="https://github.com/user-attachments/assets/0d7bd11a-0047-456a-8646-3519a7299d55" />
 
 
-- # BMP-2D - A much-needed upgrade. (TBD)
+- # BMP-2D - A much-needed upgrade. (IN-DEV)
+- The USSR finally felt like their paper armour APC needed an upgrade, especially with the threat of M2A2 Bradleys.
 
 - # T64BVU
 - - The USSR's attempt at a Bulat... (IN CONCEPTUAL PHASE)
