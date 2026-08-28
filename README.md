@@ -15,6 +15,10 @@ In this fictional scenario, based on the original games' 1985 setting, instead o
 This should make the M60 a more usable asset on the battlefield, especially with PACT equipping itself with its own ERA and advanced tanks.
 <img width="2560" height="1440" alt="2026-07-25T203232" src="https://github.com/user-attachments/assets/4cf6b44a-9a67-4a59-9d21-005420fbcf24" />
 
+- # M60AX + M60AXA1
+- The Super M60 program arises from the dead! Bringing itself an in-service variant with a 20mm gun, in addition to a "what-if" variant with a 120mm retrofitted main cannon.
+<img width="962" height="761" alt="image" src="https://github.com/user-attachments/assets/0fbf47f0-ed0f-4993-b8ff-4c18b48ac847" />
+
 
 - # Leopard 2A4  (TBD - After GHPC's Leopard 2 is released)
 - Since the base leopard 2's arent in GHPC yet, I've marked this down as a future project I'd like to add.
@@ -29,6 +33,11 @@ The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, mu
 
 - # BMP-2D - A much-needed upgrade. (IN-DEV)
 - The USSR finally felt like their paper armour APC needed an upgrade, especially with the threat of M2A2 Bradleys.
+<img width="901" height="545" alt="image" src="https://github.com/user-attachments/assets/55dc099a-37a3-452f-bab1-2963a90b70b2" />
 
-- # T64BVU
-- - The USSR's attempt at a Bulat... (IN CONCEPTUAL PHASE)
+
+- # T64U
+- The USSR's attempt at a Bulat... (IN CONCEPTUAL PHASE)
+
+- # T-90A
+- An early 2000's Russian MBT after the Cold War ended, complete with an IRCM suite and a Laser Warning System. (NOT CONFIRMED)
