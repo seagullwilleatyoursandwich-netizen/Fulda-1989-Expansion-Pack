@@ -41,8 +41,8 @@ The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, mu
 - # T64U (IN CONCEPTUAL PHASE)
 - The USSR's attempt at a Bulat... 
 
-- # Object 640 - "Black Eagle" (IN CONCEPTUAL PHASE
-- A Russian tank... with good design? Hold on, is the turret made out of wood? (NOT CONFIRMED)
+- # Object 640 - "Black Eagle" (IN CONCEPTUAL PHASE)
+- A Russian tank... with good design? Hold on, is the turret made out of wood?
 <img width="1280" height="772" alt="image" src="https://github.com/user-attachments/assets/76af86d9-39be-4585-ac69-e8c243beb77b" />
 
 - # T-90A (NOT CONFIRMED)
