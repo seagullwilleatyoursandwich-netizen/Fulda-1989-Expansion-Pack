@@ -18,12 +18,12 @@ In this fictional scenario, based on the original games' 1985 setting, instead o
 This should make the M60 a more usable asset on the battlefield, especially with PACT equipping itself with its own ERA and advanced tanks.
 <img width="2560" height="1440" alt="2026-07-25T203232" src="https://github.com/user-attachments/assets/4cf6b44a-9a67-4a59-9d21-005420fbcf24" />
 
-- # M60AX + M60AXA1 (IN-DEV)
-- The Super M60 program arises from the dead! Bringing itself an in-service variant with a 20mm gun, in addition to a "what-if" variant with a 120mm retrofitted main cannon, the M60AX is a M60A3 with significantly improved FCS performance, in addition to new armour and a much needed new engine.
+- # M60AX + M60AXA1 - The Abrams’ cousin (IN-DEV)
+- The Super M60 program arises from the dead! Bringing itself an in-service variant with a 20mm commander gun, in addition to a "what-if" variant with a 120mm retrofitted main cannon, the M60AX is an M60A3 with significantly improved FCS performance, in addition to new armour and a much needed new engine.
 <img width="962" height="761" alt="image" src="https://github.com/user-attachments/assets/0fbf47f0-ed0f-4993-b8ff-4c18b48ac847" />
 
 
-- # Leopard 2A4  (TBD - After the official GHPC's Leopard 2 is released)
+- # Leopard 2A4 - THE GOAT (TBD - After the official GHPC's Leopard 2 is released)
 - Since the base leopard 2's aren't in GHPC yet, I've marked this down as a future project I'd like to add.
 
 # PACT's Lineup! 
@@ -38,12 +38,12 @@ The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, mu
 - The USSR finally felt like their paper armour APC needed an upgrade, especially with the threat of M2A2 Bradleys.
 <img width="901" height="545" alt="image" src="https://github.com/user-attachments/assets/55dc099a-37a3-452f-bab1-2963a90b70b2" />
 
-- # T64U (IN CONCEPTUAL PHASE)
+- # T64U - The USSR Bulat (IN CONCEPTUAL PHASE)
 - The USSR's attempt at a Bulat... 
 
-- # Object 640 - "Black Eagle" (IN CONCEPTUAL PHASE)
+- # Object 640 - The "Black Eagle" (IN CONCEPTUAL PHASE)
 - A Russian tank... with good design? Hold on, is the turret made out of wood?
 <img width="1280" height="772" alt="image" src="https://github.com/user-attachments/assets/76af86d9-39be-4585-ac69-e8c243beb77b" />
 
-- # T-90A (NOT CONFIRMED)
+- # T-90A - TOW operators worst nightmare. (NOT CONFIRMED)
 - An early 2000's Russian MBT after the Cold War ended, complete with an IRCM suite and a Laser Warning System. 
