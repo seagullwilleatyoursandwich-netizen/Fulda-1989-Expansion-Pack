@@ -26,6 +26,11 @@ This should make the M60 a more usable asset on the battlefield, especially with
 - # Leopard 2A4 - THE GOAT (TBD - After the official GHPC's Leopard 2 is released)
 - Since the base leopard 2's aren't in GHPC yet, I've marked this down as a future project I'd like to add.
 
+- # AH-64 Apache - Mass PACT Tanker casualties. (NOT CONFIRMED)
+- An iconic helicopter.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3f1579c0-384f-4cb0-b947-18b22a00eaeb" />
+
+
 # PACT's Lineup! 
 
 - # T-64BV/AV - ATLAS's most hated tank. (COMPLETE)
