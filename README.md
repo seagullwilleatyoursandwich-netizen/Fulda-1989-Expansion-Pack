@@ -2,6 +2,7 @@
 # Attributions/Credits 
 - ATLAS and his mod, Pact Increased Lethality, for the ERA framework, & numerous assets used for the T64BV/AV/BVU.
 - ATLAS for his help with backend code, (thank you cro)
+- GHPC community, for their ideas and suggestions <3 
 
 # Fulda 1989 | Expansion Pack for Gunner, HEAT, PC! 
 
