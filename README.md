@@ -47,3 +47,10 @@ The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, mu
 - # Object 640 - The "Black Eagle" (IN CONCEPTUAL PHASE)
 - A Russian tank... with good design? Hold on, is the turret made out of wood?
 <img width="1280" height="772" alt="image" src="https://github.com/user-attachments/assets/76af86d9-39be-4585-ac69-e8c243beb77b" />
+
+- # T-55AMV & T-62MV
+- The USSR's aging tanks' mid 80's upgrade packages, complete with Kontakt-1 ERA!
+<img width="925" height="596" alt="image" src="https://github.com/user-attachments/assets/64df9592-8c11-451e-9c46-4e3ed315b792" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/06bda0b0-3ab9-4b1a-b5f8-65bea862bb82" />
+
+
