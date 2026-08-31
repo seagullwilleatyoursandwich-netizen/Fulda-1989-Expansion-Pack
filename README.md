@@ -1,6 +1,6 @@
 
 # Attributions/Credits 
-- ATLAS and his mod, Pact Increased Lethality, for the ERA framework, & numerous assets used for the T64BV/AV/BVU.
+- ATLAS and his mod, Pact Increased Lethality, for the ERA framework, & numerous assets used for the T64BV/AV.
 - ATLAS for his help with backend code, (thank you cro)
 - GHPC community, for their ideas and suggestions <3 
 
