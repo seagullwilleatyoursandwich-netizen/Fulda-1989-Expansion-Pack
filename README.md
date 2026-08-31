@@ -42,13 +42,8 @@ The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, mu
 - # BMP-2D - A much-needed upgrade. (IN-DEV)
 - The USSR finally felt like their paper armour APC needed an upgrade, especially with the threat of M2A2 Bradleys.
 <img width="901" height="545" alt="image" src="https://github.com/user-attachments/assets/55dc099a-37a3-452f-bab1-2963a90b70b2" />
-
-- # T64U - The USSR Bulat (IN CONCEPTUAL PHASE)
-- The USSR's attempt at a Bulat... 
+ 
 
 - # Object 640 - The "Black Eagle" (IN CONCEPTUAL PHASE)
 - A Russian tank... with good design? Hold on, is the turret made out of wood?
 <img width="1280" height="772" alt="image" src="https://github.com/user-attachments/assets/76af86d9-39be-4585-ac69-e8c243beb77b" />
-
-- # T-90A - TOW operators worst nightmare. (NOT CONFIRMED)
-- An early 2000's Russian MBT after the Cold War ended, complete with an IRCM suite and a Laser Warning System. 
