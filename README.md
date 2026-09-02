@@ -39,9 +39,11 @@ The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, mu
 <img width="2560" height="1440" alt="2026-07-19T202820" src="https://github.com/user-attachments/assets/0d7bd11a-0047-456a-8646-3519a7299d55" />
 
 
-- # BMP-2D - A much-needed upgrade. (IN-DEV)
-- The USSR finally felt like their paper armour APC needed an upgrade, especially with the threat of M2A2 Bradleys.
+- # BMP-2D & BMP-2 Obr.1984 - A much-needed upgrade. (IN-DEV)
+- The USSR finally felt like their paper armour APC needed an upgrade, especially with the threat of M2A2 Bradleys. Comes in two variants! (can be combined!)
 <img width="901" height="545" alt="image" src="https://github.com/user-attachments/assets/55dc099a-37a3-452f-bab1-2963a90b70b2" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/b8949bd9-8815-4338-bba5-8a55057f49c2" />
+
  
 
 - # Object 640 - The "Black Eagle" (IN CONCEPTUAL PHASE)
