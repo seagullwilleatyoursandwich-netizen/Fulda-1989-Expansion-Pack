@@ -23,7 +23,7 @@ This should make the M60 a more usable asset on the battlefield, especially with
 <img width="962" height="761" alt="image" src="https://github.com/user-attachments/assets/0fbf47f0-ed0f-4993-b8ff-4c18b48ac847" />
 
 
-- # Leopard 2A4 - THE GOAT (TBD - After the official GHPC's Leopard 2 is released)
+- # Leopard 2A4 (Type C armour variant)- THE GOAT (TBD - After the official GHPC's Leopard 2 is released)
 - Since the base leopard 2's aren't in GHPC yet, I've marked this down as a future project I'd like to add.
 
 - # AH-64 Apache - Mass PACT Tanker casualties. (NOT CONFIRMED)
