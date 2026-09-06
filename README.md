@@ -23,12 +23,16 @@ This should make the M60 a more usable asset on the battlefield, especially with
 <img width="962" height="761" alt="image" src="https://github.com/user-attachments/assets/0fbf47f0-ed0f-4993-b8ff-4c18b48ac847" />
 
 
-- # Leopard 2A4 (Type C armour variant)- THE GOAT (TBD - After the official GHPC's Leopard 2 is released)
+- # Leopard 2A4 (Type C armour variant) - THE GOAT (TBD - After the official GHPC's Leopard 2 is released)
 - Since the base leopard 2's aren't in GHPC yet, I've marked this down as a future project I'd like to add.
 
-- # AH-64 Apache - Mass PACT Tanker casualties. (NOT CONFIRMED)
-- An iconic helicopter.
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3f1579c0-384f-4cb0-b947-18b22a00eaeb" />
+- # Leopard 2K - The Bundeswehr's answer to the M1!
+- This prototype vehicle gets its spotlight in Gunner HEAT PC! The Leopard 2K (and its fictional upgrades) serve to replace any Leopard 1 spawns, giving the Bundeswehr a stop-gap MBT between the Leopard 1 and Leopard 2.
+- The upgrades planned so far range from the base Leopard 2K are: 
+- Leopard 2K1 (1984), Improved FCS (thermals) + DM12 HEAT-FS round.
+- Leopard 2K2 (1986), EMES-18 (same FCS as the Leopard 1a5 from Underdogs Enhanced), DM23 and DM33 APFSDS, 
+- Leopard 2K3 (1988), Improved armour package with composite modules, experimental "DM43K" 120mm round (somewhat comparable to M829A1)
+<img width="4320" height="3076" alt="image" src="https://github.com/user-attachments/assets/f62a68e7-9e9b-4bd5-94b0-ea8aca66319c" />
 
 
 # PACT's Lineup! 
