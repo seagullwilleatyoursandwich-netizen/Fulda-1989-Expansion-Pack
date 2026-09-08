@@ -4,16 +4,18 @@
 - ATLAS for his help with backend code, (thank you cro)
 - GHPC community, for their ideas and suggestions <3 
 
-# Fulda 1989 | Expansion Pack for Gunner, HEAT, PC! 
+# Fulda 1989 Expansion Pack for Gunner, HEAT, PC! 
 
-Hello! This modpack aims to expand the GHPC lineup by adding tanks all the way up to late 1989. 
+Hello! This modpack aims to expand the GHPC lineup by adding tanks all the way up to late 1989 (with some wiggle room). 
 In this fictional scenario, based on the original games' 1985 setting, instead of the cold war kicking off immediately both NATO and the USSR begin small skirmishes and proxies for the next few years, massively accelerating development of known tanks and implementations of previously scrapped technologies like Agava-1 Thermal imagers for the soviets, etc. 
+
+<img width="1920" height="1080" alt="Still 2026-07-09 061234_1 1 1" src="https://github.com/user-attachments/assets/66a7d73a-9ba9-4d8f-9902-8e312adad943" />
 
 # !ROADMAP!
 
 # NATO's Lineup!
 
-- # M60A1/3 ERA - The Gulf War came early. (COMPLETE)
+- # M60A1/3 ERA - The Gulf War came early. (COMPLETE!)
 - The M60 receives some love! At a spawnrate of around 30-70% (dependent on the original m60 type), the Gulf War ERA-retrofit M1 package for the M60A1 and M60A3 has arrived to GHPC! Its chemical energy stopping power is slightly inferior to the soviet's Kontakt-5, it provides double the KE protection, and a little extra CE compared to Kontakt-1! 
 This should make the M60 a more usable asset on the battlefield, especially with PACT equipping itself with its own ERA and advanced tanks.
 <img width="2560" height="1440" alt="2026-07-25T203232" src="https://github.com/user-attachments/assets/4cf6b44a-9a67-4a59-9d21-005420fbcf24" />
@@ -37,18 +39,14 @@ This should make the M60 a more usable asset on the battlefield, especially with
 
 # PACT's Lineup! 
 
-- # T-64BV/AV - ATLAS's most hated tank. (COMPLETE)
+- # T-64BV/AV - ATLAS's most hated tank. (COMPLETE!)
 - The T64 *finally* receives an upgrade! Introducing the T-64BV, T-64B1V and the T-64AV! These packages aim to improve survivability of the USSR's most abundant tank type in Fulda.
 The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, much improved ammunition (3BM32 by default, 3BM26 by default for the AV and 3BK18M for both) and most importantly, a large layer of Kontakt-1 ERA across the turret, side skirts and frontal armour! Massively improving its performance against ATGM's and infantry-launched AT weapons.
 <img width="2560" height="1440" alt="2026-07-19T202820" src="https://github.com/user-attachments/assets/0d7bd11a-0047-456a-8646-3519a7299d55" />
 
-
-- # BMP-2D & BMP-2 Obr.1984 - A much-needed upgrade. (IN-DEV)
-- The USSR finally felt like their paper armour APC needed an upgrade, especially with the threat of M2A2 Bradleys. Comes in two variants! (can be combined!)
-<img width="901" height="545" alt="image" src="https://github.com/user-attachments/assets/55dc099a-37a3-452f-bab1-2963a90b70b2" />
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/b8949bd9-8815-4338-bba5-8a55057f49c2" />
-
- 
+- # BMP-2D Obr.1984 - A much-needed upgrade. (COMPLETE!)
+- The USSR finally felt like their paper armour APC needed an upgrade, especially with the threat of M2A2 Bradleys. (Has unique PIL interaction with BMP-2M!)
+<img width="1920" height="1080" alt="BMP-2 Update Thumbnail" src="https://github.com/user-attachments/assets/ebe696f0-83a0-4b43-bda7-d66c704213a9" />
 
 - # Object 640 - The "Black Eagle" (IN CONCEPTUAL PHASE)
 - A Russian tank... with good design? Hold on, is the turret made out of wood?
