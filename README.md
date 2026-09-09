@@ -28,13 +28,14 @@ This should make the M60 a more usable asset on the battlefield, especially with
 - # Leopard 2A4 (Type C armour variant) - THE GOAT (TBD - After the official GHPC's Leopard 2 is released)
 - Since the base leopard 2's aren't in GHPC yet, I've marked this down as a future project I'd like to add.
 
-- # Leopard 2K - The Bundeswehr's answer to the M1!
+- # Leopard 2K - The Bundeswehr's answer to the M1! (WON THE DEV NEXT VOTE, IN-DEV!)
 - This prototype vehicle gets its spotlight in Gunner HEAT PC! The Leopard 2K (and its fictional upgrades) serve to replace any Leopard 1 spawns, giving the Bundeswehr a stop-gap MBT between the Leopard 1 and Leopard 2.
 - The upgrades planned so far range from the base Leopard 2K are: 
 - Leopard 2K1 (1984), Improved FCS (thermals) + DM12 HEAT-FS round.
 - Leopard 2K2 (1986), EMES-18 (same FCS as the Leopard 1a5 from Underdogs Enhanced), DM23 and DM33 APFSDS, 
 - Leopard 2K3 (1988), Improved armour package with composite modules, experimental "DM43K" 120mm round (somewhat comparable to M829A1)
 <img width="4320" height="3076" alt="image" src="https://github.com/user-attachments/assets/f62a68e7-9e9b-4bd5-94b0-ea8aca66319c" />
+<img width="274" height="110" alt="image" src="https://github.com/user-attachments/assets/38c386dc-ae50-4203-947b-9aa563d98c4c" />
 
 
 # PACT's Lineup! 
