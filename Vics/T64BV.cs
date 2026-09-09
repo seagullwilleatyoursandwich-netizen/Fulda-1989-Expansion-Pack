@@ -1,4 +1,4 @@
-﻿using BehaviorDesigner.Runtime.Tasks.Unity.UnityPlayerPrefs;
+using BehaviorDesigner.Runtime.Tasks.Unity.UnityPlayerPrefs;
 using GHPC;
 using GHPC.Equipment;
 using GHPC.Equipment.Optics;
@@ -71,7 +71,7 @@ namespace Fulda1989
 
             t64bv_thermals = cfg.CreateEntry<bool>("Has Thermals (T-64BV)", true);
             t64bv_thermals.Description = " ";
-            t64bv_thermals.Comment = "Replaces night vision sight with thermal sight for T-64BV/B1V variants";
+            t64bv_thermals.Comment = "Replaces night vision sight with thermal sight for T-64BV/BV1 variants";
             thermals_qualityt64bv = cfg.CreateEntry<string>("Thermals Quality (T-64BV & T-64BV1)", "Low");
             thermals_qualityt64bv.Comment = "Low, High";
         }
@@ -110,6 +110,7 @@ namespace Fulda1989
                 }
 
                 vic_go.AddComponent<AlreadyConverted>();
+
                 bool converted_to_t64bv = kontakt1.Value && UnityEngine.Random.Range(0, 100) < conversion_chance;
                 if (converted_to_t64bv)
                 {
@@ -230,10 +231,27 @@ namespace Fulda1989
                     GameObject.Destroy(k1_full);
 
                     Transform old_smokes = turret.Find("T64B_smoke");
-
                     if (old_smokes != null)
                     {
                         old_smokes.gameObject.SetActive(false);
+                    }
+
+                    Transform camonet1 = vic.transform.Find("---T64A_MESH---/HULL/t64a hull net");
+                    if (camonet1 != null)
+                    {
+                        camonet1.gameObject.SetActive(false);
+                    }
+
+                    Transform camonet2 = vic.transform.Find("---T64A_MESH---/HULL/TURRET/t64a turret net");
+                    if (camonet2 != null)
+                    {
+                        camonet2.gameObject.SetActive(false);
+                    }
+
+                    Transform camonet3 = vic.transform.Find("---T64A_MESH---/HULL/TURRET/Main gun/Muzzle identity/t64a gun net");
+                    if (camonet3 != null)
+                    {
+                        camonet3.gameObject.SetActive(false);
                     }
                 }
 
@@ -253,14 +271,14 @@ namespace Fulda1989
                     if (thermals_qualityt64bv.Value.Equals("Low", StringComparison.OrdinalIgnoreCase))
                     {
                         if (vic.FriendlyName.Contains("T-64B1V"))
-                            vic._friendlyName = "T-64B1V obr.1987";
+                            vic._friendlyName = "T-64BV1 obr.1987";
                         else
                             vic._friendlyName = "T-64BV obr.1987";
                     }
                     else if (thermals_qualityt64bv.Value.Equals("High", StringComparison.OrdinalIgnoreCase))
                     {
                         if (vic.FriendlyName.Contains("T-64B1V"))
-                            vic._friendlyName = "T-64B1V obr.1989";
+                            vic._friendlyName = "T-64BV1 obr.1989";
                         else
                             vic._friendlyName = "T-64BV obr.1989";
                     }
@@ -336,7 +354,7 @@ namespace Fulda1989
 
             if (T64Assets.t64bv_full == null)
             {
-                MelonLogger.Error("Could not find t64bv_full inside bundle");
+                MelonLogger.Error("Could not find t64bv_full inside bundle, please check that your fulda1989 assets are installed!");
                 return;
             }
 
