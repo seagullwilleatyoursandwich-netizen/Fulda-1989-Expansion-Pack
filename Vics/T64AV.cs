@@ -1,4 +1,4 @@
-﻿using GHPC;
+using GHPC;
 using GHPC.Equipment;
 using GHPC.Equipment.Optics;
 using GHPC.State;
@@ -213,6 +213,24 @@ namespace Fulda1989
                     {
                         old_smokes.gameObject.SetActive(false);
                     }
+
+                    Transform camonet1 = vic.transform.Find("---T64A_MESH---/HULL/t64a hull net");
+                    if (camonet1 != null)
+                    {
+                        camonet1.gameObject.SetActive(false);
+                    }
+
+                    Transform camonet2 = vic.transform.Find("---T64A_MESH---/HULL/TURRET/t64a turret net");
+                    if (camonet2 != null)
+                    {
+                        camonet2.gameObject.SetActive(false);
+                    }
+
+                    Transform camonet3 = vic.transform.Find("---T64A_MESH---/HULL/TURRET/Main gun/Muzzle identity/t64a gun net");
+                    if (camonet3 != null)
+                    {
+                        camonet3.gameObject.SetActive(false);
+                    }
                 }
 
                 if (!converted_to_t64av)
@@ -265,7 +283,7 @@ namespace Fulda1989
 
             if (T64Assets.t64bv_full == null)
             {
-                MelonLogger.Error("Could not find t64bv_full inside bundle");
+                MelonLogger.Error(" (T-64AV) Could not find t64bv_full inside bundle, please check that your fulda1989 assets are installed!");
                 return;
             }
 
@@ -279,7 +297,7 @@ namespace Fulda1989
 
             Util.SetupFLIRShaders(T64Assets.t64bv_full);
 
-            MelonLogger.Msg("Loaded T64BV ERA asset successfully");
+            MelonLogger.Msg("(T-64AV) Loaded T64BV ERA asset successfully");
         }
 
         public static void Init()
