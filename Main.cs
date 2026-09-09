@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using MelonLoader;
 using UnityEngine;
 using GHPC.State;
@@ -30,7 +30,9 @@ namespace Fulda1989
         internal static PlayerInput player_manager;
         internal static CameraManager camera_manager;
 
+        private int valid_scene_count = 0;
         internal static FMOD.ChannelGroup audio_channel_group;
+
 
         public IEnumerator OnGameReady(GameState _) 
         {
@@ -53,6 +55,8 @@ namespace Fulda1989
             T64AV.Config(cfg);
             T64BV.Config(cfg);
             M60ERA.Config(cfg);
+            BMP2D.Config(cfg);
+            LEO2K.Config(cfg);
 
             var cor_system = FMODUnity.RuntimeManager.CoreSystem;
 
@@ -62,11 +66,13 @@ namespace Fulda1989
 
             module_manager.Add("SharedAssets", new SharedAssets());
             module_manager.Add("AMMO_125MM", new Ammo_125mm());
-            module_manager.Add("M60_Assets", new M60_Assets()); 
+            module_manager.Add("M60_Assets", new M60_Assets());
+            module_manager.Add("BMP2D_Assets", new BMP2D_Assets());
             module_manager.Add("T64Assets", new T64Assets());
             module_manager.Add("T64AV", new T64AV());
             module_manager.Add("T64BV", new T64BV());
             module_manager.Add("M60ERA", new M60ERA());
+            module_manager.Add("BMP-2D", new BMP2D());
             module_manager.Add("SuperFCS", new SuperFCS());
             module_manager.Add("PactThermal", new PactThermal());
             module_manager.Add("1A40", new FireControlSystem1A40());
@@ -92,12 +98,19 @@ namespace Fulda1989
 
             if (Util.menu_screens.Contains(sceneName)) return;
 
-            StateController.RunOrDefer(GameState.GameReady, new GameStateEventHandler(OnGameReady), GameStatePriority.Medium);
+            valid_scene_count++;
+            if (valid_scene_count == 2)
+            {
+                StateController.RunOrDefer(GameState.GameReady, new GameStateEventHandler(OnGameReady), GameStatePriority.Medium);
 
             FuldaEra.Init();
             M60ERA.Init();
             T64AV.Init();
             T64BV.Init();
+            BMP2D.Init();
+
+                valid_scene_count = 0;
+            }
         }
     }
 }
