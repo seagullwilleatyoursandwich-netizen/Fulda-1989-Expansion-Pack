@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using GHPC.Equipment.Optics;
@@ -20,6 +20,7 @@ using GHPC.Mission;
 using GHPC.AI;
 using GHPC.Mission.Data;
 using ModUtil;
+using System.Diagnostics.Eventing.Reader;
 
 namespace Fulda1989
 {
@@ -181,8 +182,42 @@ namespace Fulda1989
                         era_mantlet.SetParent(mantlet_late_follow);
                     }
                     GameObject.Destroy(m1_full);
+
+                    Transform wheelcosmetic = vic.transform.Find("M60A3TTS_rig/hull/turret/spare_wheel_mantlet");
+                    if (wheelcosmetic != null)
+                    {
+                        wheelcosmetic.gameObject.SetActive(false);
+                    }
+                    if (vic.FriendlyName.Contains("M60A3")) ;
+                    {
+                        Transform camonet1 = vic.transform.Find("M60A3TTS_rig/hull/M60 hull net");
+                        if (camonet1 != null)
+                        {
+                            camonet1.gameObject.SetActive(false);
+                        }
+
+                        Transform camonet2 = vic.transform.Find("M60A3TTS_rig/hull/turret/M60 turret net");
+                        if (camonet2 != null)
+                        {
+                            camonet2.gameObject.SetActive(false);
+                        }
+                        else
+                        {
+                            Transform camonet3 = vic.transform.Find("--RIG/hull/M60 hull net");
+                            if (camonet3 != null)
+                            {
+                                camonet3.gameObject.SetActive(false);
+                            }
+
+                            Transform camonet4 = vic.transform.Find("--RIG/hull/turret/M60 turret net");
+                            if (camonet4 != null)
+                            {
+                                camonet4.gameObject.SetActive(false);
+                            }
+                        }
+                    }
+                    yield return null;
                 }
-                yield return null;
             }
         }
         public override void LoadStaticAssets()
@@ -193,7 +228,7 @@ namespace Fulda1989
 
             if (M60_Assets.m60_full == null)
             {
-                MelonLogger.Error("Could not find m60_full inside bundle");
+                MelonLogger.Error("Could not find m60_full inside bundle, please check that your fulda1989 assets are installed!");
                 return;
             }
 
