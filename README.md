@@ -24,7 +24,6 @@ This should make the M60 a more usable asset on the battlefield, especially with
 - The Super M60 program arises from the dead! Bringing itself an in-service variant with a 20mm commander gun, in addition to a "what-if" variant with a 120mm retrofitted main cannon, the M60AX is an M60A3 with significantly improved FCS performance, in addition to new armour and a much needed new engine.
 <img width="962" height="761" alt="image" src="https://github.com/user-attachments/assets/0fbf47f0-ed0f-4993-b8ff-4c18b48ac847" />
 
-
 - # Leopard 2A4 (Type C armour variant) - THE GOAT (TBD - After the official GHPC's Leopard 2 is released)
 - Since the base leopard 2's aren't in GHPC yet, I've marked this down as a future project I'd like to add.
 
@@ -33,9 +32,9 @@ This should make the M60 a more usable asset on the battlefield, especially with
 - The upgrades planned so far range from the base Leopard 2K are: 
 - Leopard 2K1 (1984), Improved FCS (thermals) + DM12 HEAT-FS round.
 - Leopard 2K2 (1986), EMES-18 (same FCS as the Leopard 1a5 from Underdogs Enhanced), DM23 and DM33 APFSDS, 
-- Leopard 2K3 (1988), Improved armour package with composite modules, experimental "DM43K" 120mm round (comparable to M829A1)
-<img width="827" height="455" alt="image" src="https://github.com/user-attachments/assets/05c7d829-8307-40e6-9c46-82daedb35958" />
-<img width="274" height="110" alt="image" src="https://github.com/user-attachments/assets/38c386dc-ae50-4203-947b-9aa563d98c4c" />
+- Leopard 2K3 (1988), Improved armour package with composite modules, experimental "DM43K" 120mm round (somewhat comparable to M829A1)
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/a955c6ba-62f5-4f67-999b-19764acdc8f7" />
+
 
 
 # PACT's Lineup! 
@@ -58,4 +57,7 @@ The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, mu
 <img width="925" height="596" alt="image" src="https://github.com/user-attachments/assets/64df9592-8c11-451e-9c46-4e3ed315b792" />
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/06bda0b0-3ab9-4b1a-b5f8-65bea862bb82" />
 
+- # Object 292 - PACT Bias incarnate
+- The USSR's 152mm monster.
+<img width="550" height="365" alt="image" src="https://github.com/user-attachments/assets/9722b365-c3fb-4299-b4e4-e52c9de051bf" />
 
