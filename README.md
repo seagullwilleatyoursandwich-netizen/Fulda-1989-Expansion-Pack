@@ -2,7 +2,7 @@
 # Attributions/Credits 
 - ATLAS and his mod, Pact Increased Lethality, for the ERA framework & ERA assets.
 - ATLAS for his help with code, (thank you cro)
-- TheMIC on cults3d.com, Leopard 2K model! Go check out his work at: https://cults3d.com/en/users/TheMIC/3d-models
+- TheMIC on cults3d.com, Leopard 2K model! Go check out their work at: https://cults3d.com/en/users/TheMIC/3d-models
 - GHPC community, for their ideas and suggestions <3 
 
 # Fulda 1989 Expansion Pack for Gunner, HEAT, PC! 
