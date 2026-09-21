@@ -8,11 +8,11 @@
 # Fulda 1989 Expansion Pack for Gunner, HEAT, PC! 
 
 Hello! This modpack aims to expand the GHPC lineup by adding tanks all the way up to late 1989 (with some wiggle room). 
-In this fictional scenario, based on the original games' 1985 setting, instead of the cold war kicking off immediately both NATO and the USSR begin small skirmishes and proxies for the next few years, massively accelerating development of known tanks and implementations of previously scrapped technologies like Agava-1 Thermal imagers for the soviets, etc. 
+In this fictional scenario, based on the original games' 1985 setting, instead of the cold war kicking off immediately both NATO and the USSR begin small skirmishes and proxies for the next few years, massively accelerating development of known tanks and technologies.
 
 <img width="1920" height="1080" alt="Still 2026-07-09 061234_1 1 1" src="https://github.com/user-attachments/assets/66a7d73a-9ba9-4d8f-9902-8e312adad943" />
 
-# !ROADMAP!
+# !DEVELOPMENT ROADMAP!
 
 # NATO's Lineup!
 
