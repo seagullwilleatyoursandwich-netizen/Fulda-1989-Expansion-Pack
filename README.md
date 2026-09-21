@@ -31,9 +31,9 @@ This should make the M60 a more usable asset on the battlefield, especially with
 - # Leopard 2K - The Bundeswehr's answer to the M1! (WON THE DEV NEXT VOTE, IN-DEV!)
 - This prototype vehicle gets its spotlight in Gunner HEAT PC! The Leopard 2K (and its fictional upgrades) serve to replace any Leopard 1 spawns, giving the Bundeswehr a stop-gap MBT between the Leopard 1 and Leopard 2.
 - The upgrades planned so far range from the base Leopard 2K are: 
-- Leopard 2K1 (1984), Improved FCS (thermals) + DM12 HEAT-FS round.
-- Leopard 2K2 (1986), EMES-18 (same FCS as the Leopard 1a5 from Underdogs Enhanced), DM23 and DM33 APFSDS, 
-- Leopard 2K3 (1988), Improved armour package with composite modules, experimental "DM43K" 120mm round (somewhat comparable to M829A1)
+- Leopard 2KA1 'Vogel' (1983), Improved FCS ("EMES-12K" + Thermal Imaging) + DM12 HEAT-FS round.
+- Leopard 2KA2 'Falke' (1987), FCS Upgrade "EMES-12K1", DM33 APFSDS + Composite Armour Package 
+- Leopard 2K3  'Adler' (1989), "Vorschlaghammer" Composite package, "DM43K" Experimental 120MM APFSDS round, "PERI-R12K3" CITV, DM63 APDS for the Rh-202 roof gun.
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/a955c6ba-62f5-4f67-999b-19764acdc8f7" />
 
 
