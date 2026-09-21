@@ -5,6 +5,7 @@
 - TheMIC on cults3d.com, Leopard 2K model! Go check out their work at: https://cults3d.com/en/users/TheMIC/3d-models &  https://www.micjspi.com
 - GHPC community, for their ideas and suggestions <3 
 
+# Join the Gunner, HEAT, PC! Discord Server to interact with me in my thread for suggestions, votes, and sneak peeks on upcoming vehicles @ discord.gg/ghpc !
 # Fulda 1989 Expansion Pack for Gunner, HEAT, PC! 
 
 Hello! This modpack aims to expand the GHPC lineup by adding tanks all the way up to late 1989 (with some wiggle room). 
@@ -48,10 +49,6 @@ The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, mu
 - # BMP-2D Obr.1984 - A much-needed upgrade. (COMPLETE!)
 - The USSR finally felt like their paper armour APC needed an upgrade, especially with the threat of M2A2 Bradleys. (Has unique PIL interaction with BMP-2M!)
 <img width="1920" height="1080" alt="BMP-2 Update Thumbnail" src="https://github.com/user-attachments/assets/ebe696f0-83a0-4b43-bda7-d66c704213a9" />
-
-- # Object 640 - The "Black Eagle" (IN CONCEPTUAL PHASE)
-- A Russian tank... with good design? Hold on, is the turret made out of wood?
-<img width="1280" height="772" alt="image" src="https://github.com/user-attachments/assets/76af86d9-39be-4585-ac69-e8c243beb77b" />
 
 - # T-55AMV & T-62MV
 - The USSR's aging tanks' mid 80's upgrade packages, complete with Kontakt-1 ERA!
