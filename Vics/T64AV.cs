@@ -30,14 +30,6 @@ namespace Fulda1989
         static MelonPreferences_Entry<int> t64a_1984_av_chance;
         public static void Config(MelonPreferences_Category cfg)
         {
-            var random_ammo_pool = new List<string>()
-            {
-                "3BM26",
-                "3BM32",
-                "3BM42",
-                "3BM46"
-            };
-
             t64av_patch = cfg.CreateEntry<bool>("T-64AV Patch", true);
 
             kontakt1 = cfg.CreateEntry<bool>("Kontakt-1 (T-64AV)", true);
@@ -80,8 +72,6 @@ namespace Fulda1989
                 {
                     conversion_chance = t64a_1984_av_chance.Value;
                 }
-
-                vic_go.AddComponent<AlreadyConverted>();
 
                 bool converted_to_t64av = kontakt1.Value && UnityEngine.Random.Range(0, 100) < conversion_chance;
                 if (converted_to_t64av)
@@ -126,15 +116,14 @@ namespace Fulda1989
                         era_hull.localEulerAngles = new Vector3(0f, 90f, 0f);
                         era_hull.localScale = new Vector3(0.12f, 0.12f, 0.12f);
 
-                        Transform hull_late_follow = hull.GetComponentInParent<LateFollowTarget>()._lateFollowers[0].transform;
+                        Transform hull_late_follow = vic.transform.GetComponent<LateFollowTarget>()._lateFollowers[0].transform;
                         era_hull.SetParent(hull_late_follow);
 
                         hull_misc.localPosition = new Vector3(-0.06f, 0.39f, -0.785f);
                         hull_misc.localEulerAngles = new Vector3(0f, 90f, 0f);
                         hull_misc.localScale = new Vector3(0.12f, 0.12f, 0.12f);
 
-                        Transform hull_misc_late_follow = hull_misc.GetComponentInParent<LateFollowTarget>()._lateFollowers[0].transform;
-                        hull_misc.SetParent(hull_misc_late_follow);
+                        hull_misc.SetParent(hull_late_follow);
                     }
                     // TURRET ERA
                     if (era_turret != null)
@@ -147,15 +136,14 @@ namespace Fulda1989
                         era_turret.localEulerAngles = new Vector3(0f, 90f, 0f);
                         era_turret.localScale = new Vector3(0.12f, 0.12f, 0.12f);
 
-                        Transform turret_late_follow = turret.GetComponentInParent<LateFollowTarget>()._lateFollowers[0].transform;
+                        Transform turret_late_follow = turret.transform.GetComponent<LateFollowTarget>()._lateFollowers[0].transform;
                         era_turret.SetParent(turret_late_follow);
 
                         turret_misc.localPosition = new Vector3(-0.06f, -0.27f, -0.43f);
                         turret_misc.localEulerAngles = new Vector3(0f, 90f, 0f);
                         turret_misc.localScale = new Vector3(0.12f, 0.12f, 0.12f);
 
-                        Transform turretmisc_late_follow = turret_misc.GetComponentInParent<LateFollowTarget>()._lateFollowers[0].transform;
-                        turret_misc.SetParent(turretmisc_late_follow);
+                        turret_misc.SetParent(turret_late_follow);
                     }
 
                     VehicleSmokeManager smoke_manager = vic.GetComponentInChildren<VehicleSmokeManager>();
