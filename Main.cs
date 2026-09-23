@@ -14,7 +14,7 @@ using Fulda1989;
 using ModUtil;
 using FMODUnity;
 
-[assembly: MelonInfo(typeof(Mod), "Fulda 1989 | Expansion Pack", "1.1.4", "ZironTheDerg")]
+[assembly: MelonInfo(typeof(Mod), "Fulda 1989 | Expansion Pack", "1.2.0A", "ZironTheDerg")]
 [assembly: MelonGame("Radian Simulations LLC", "GHPC")]
 
 namespace Fulda1989
@@ -56,7 +56,6 @@ namespace Fulda1989
             T64BV.Config(cfg);
             M60ERA.Config(cfg);
             BMP2D.Config(cfg);
-            LEO2K.Config(cfg);
 
             var cor_system = FMODUnity.RuntimeManager.CoreSystem;
 
