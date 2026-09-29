@@ -23,7 +23,7 @@ In this fictional scenario, based on the original games' 1985 setting, instead o
 - # M60A1/3 ERA - The Gulf War came early. (COMPLETE!)
 - The M60 receives some love! At a spawnrate of around 30-70% (dependent on the original m60 type), the Gulf War ERA-retrofit M1 package for the M60A1 and M60A3 has arrived to GHPC! Its chemical energy stopping power is slightly inferior to the soviet's Kontakt-5, it provides double the KE protection, and a little extra CE compared to Kontakt-1! 
 This should make the M60 a more usable asset on the battlefield, especially with PACT equipping itself with its own ERA and advanced tanks.
-<img width="2560" height="1440" alt="2026-07-25T203232" src="https://github.com/user-attachments/assets/4cf6b44a-9a67-4a59-9d21-005420fbcf24" />
+<img width="2560" height="1440" alt="m60" src="https://github.com/user-attachments/assets/ae4436c2-525b-4b09-98c9-de3f1239fbd0" />
 
 - # M60AX + M60AXA1 - The Abrams’ cousin (ON HOLD)
 - The Super M60 program arises from the dead! Bringing itself an in-service variant with a 20mm commander gun, in addition to a "what-if" variant with a 120mm retrofitted main cannon, the M60AX is an M60A3 with significantly improved FCS performance, in addition to new armour and a much needed new engine.
