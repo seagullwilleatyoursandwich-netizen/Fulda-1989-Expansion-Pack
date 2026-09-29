@@ -1,14 +1,17 @@
 
 # Attributions/Credits 
-- ATLAS and his mod, Pact Increased Lethality, for the ERA framework & ERA assets.
+- ATLAS, numerous assets (Kontakt-5 plates, slat armour, etc.)
+- evt22, Sketchfab - Kontakt-1 bricks. (https://sketchfab.com/evt22)
 - ATLAS for his help with code, (thank you cro)
-- TheMIC on cults3d.com, Leopard 2K model! Go check out their work at: https://cults3d.com/en/users/TheMIC/3d-models &  https://www.micjspi.com
+- TheMIC on cults3d.com, Leopard 2K model! Go check out their work at: https://cults3d.com/en/users/TheMIC/3d-models & https://www.micjspi.com for a commissionable 3d model!
+- Muhamad Mirza Arrafi, Sketchfab - Numerous assets used for the Leopard 2KA2 and 2KA3 composite models. (https://sketchfab.com/MirzaArrafiERV_45)
+- unhappy_nation + Scout, Sketchfab - BMP-2D models. (https://sketchfab.com/unhappy_nation) (https://sketchfab.com/scout.) 
 - GHPC community, for their ideas and suggestions <3 
 
-# Join the Gunner, HEAT, PC! Discord Server to interact with me in my thread for suggestions, votes, and sneak peeks on upcoming vehicles @ discord.gg/ghpc !
-# Fulda 1989 Expansion Pack for Gunner, HEAT, PC! 
+# Join the Gunner, HEAT, PC! Discord Server to interact with me in my thread for suggestions, votes, and sneak peeks on upcoming vehicles! discord.gg/ghpc
+# The Fulda 1989 Expansion Pack Project for Gunner, HEAT, PC! 
 
-Hello! This modpack aims to expand the GHPC lineup by adding tanks all the way up to late 1989 (with some wiggle room). 
+Hello! This project aims to expand the GHPC lineup by adding tanks all the way up to late 1989 (with some wiggle room). 
 In this fictional scenario, based on the original games' 1985 setting, instead of the cold war kicking off immediately both NATO and the USSR begin small skirmishes and proxies for the next few years, massively accelerating development of known tanks and technologies.
 
 <img width="1920" height="1080" alt="Still 2026-07-09 061234_1 1 1" src="https://github.com/user-attachments/assets/66a7d73a-9ba9-4d8f-9902-8e312adad943" />
@@ -22,21 +25,19 @@ In this fictional scenario, based on the original games' 1985 setting, instead o
 This should make the M60 a more usable asset on the battlefield, especially with PACT equipping itself with its own ERA and advanced tanks.
 <img width="2560" height="1440" alt="2026-07-25T203232" src="https://github.com/user-attachments/assets/4cf6b44a-9a67-4a59-9d21-005420fbcf24" />
 
-- # M60AX + M60AXA1 - The Abrams’ cousin (IN-DEV)
+- # M60AX + M60AXA1 - The Abrams’ cousin (ON HOLD)
 - The Super M60 program arises from the dead! Bringing itself an in-service variant with a 20mm commander gun, in addition to a "what-if" variant with a 120mm retrofitted main cannon, the M60AX is an M60A3 with significantly improved FCS performance, in addition to new armour and a much needed new engine.
 <img width="962" height="761" alt="image" src="https://github.com/user-attachments/assets/0fbf47f0-ed0f-4993-b8ff-4c18b48ac847" />
 
-- # Leopard 2A4 (Type C armour variant) - THE GOAT (TBD - After the official GHPC's Leopard 2 is released)
-- Since the base leopard 2's aren't in GHPC yet, I've marked this down as a future project I'd like to add.
+- # Leopard 2A4 (Type C armour variant) + Leopard 2A4 (140MM) - (TO BE DETERMINED - After the official GHPC's Leopard 2 is released)
 
-- # Leopard 2K - The Bundeswehr's answer to the M1! (WON THE DEV NEXT VOTE, IN-DEV!)
-- This prototype vehicle gets its spotlight in Gunner HEAT PC! The Leopard 2K (and its fictional upgrades) serve to replace any Leopard 1 spawns, giving the Bundeswehr a stop-gap MBT between the Leopard 1 and Leopard 2.
-- The upgrades planned so far range from the base Leopard 2K (1970's) to: 
+- # Leopard 2K - The Bundeswehr's answer to the M1! (COMPLETE!)
+- This prototype vehicle finally gets its spotlight in Gunner HEAT PC! The Leopard 2K (and its fictional upgrades) serve to replace Leopard 1A4 spawns, giving the Bundeswehr a stop-gap MBT between the Leopard 1 and Leopard 2.
+- The upgrades planned so far range from the base Leopard 2K (1970's) to:
 - Leopard 2KA1 'Vogel' (1983), Improved FCS ("EMES-12K" + Thermal Imaging) + DM12 HEAT-FS round.
-- Leopard 2KA2 'Falke' (1987), FCS Upgrade "EMES-12K1", DM33 APFSDS + Composite Armour Package 
-- Leopard 2K3  'Adler' (1989), "Vorschlaghammer" Composite package, "DM43K" Experimental 120MM APFSDS round, "PERI-R12K3" CITV, DM63 APDS for the Rh-202 roof gun.
+- Leopard 2KA2 'Falke' (1986), FCS Upgrade "EMES-12K1", DM33 APFSDS + Composite Armour Package 
+- Leopard 2KA3  'Adler' (1989), "Vorschlaghammer" Composite package, "DM43K" Experimental 120MM APFSDS round, "PERI-R12K3" CITV, DM63 APDS for the Rh-202 roof gun.
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/a955c6ba-62f5-4f67-999b-19764acdc8f7" />
-
 
 
 # PACT's Lineup! 
