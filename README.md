@@ -5,6 +5,7 @@
 - ATLAS for his help with code, (thank you cro)
 - TheMIC on cults3d.com, Leopard 2K model! Go check out their work at: https://cults3d.com/en/users/TheMIC/3d-models & https://www.micjspi.com for a commissionable 3d model!
 - Muhamad Mirza Arrafi, Sketchfab - Numerous assets used for the Leopard 2KA2 and 2KA3 composite models. (https://sketchfab.com/MirzaArrafiERV_45)
+- EXcaliburK117, Sketchfab - Numerous assets used for the Leopard 2KA2 and 2KA3 composite models. (https://sketchfab.com/EXcalibur117)
 - unhappy_nation + Scout, Sketchfab - BMP-2D models. (https://sketchfab.com/unhappy_nation) (https://sketchfab.com/scout.) 
 - GHPC community, for their ideas and suggestions <3 
 
