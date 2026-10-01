@@ -53,6 +53,9 @@ The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, mu
 - The USSR finally felt like their paper armour APC needed an upgrade, especially with the threat of M2A2 Bradleys. (Has unique PIL interaction with BMP-2M!)
 <img width="1920" height="1080" alt="BMP-2 Update Thumbnail" src="https://github.com/user-attachments/assets/ebe696f0-83a0-4b43-bda7-d66c704213a9" />
 
+- # PT-76E - The little tank! (CONFIRMED)
+- This underdog (no pun intended with underdogs enhanced...) gets some modernisation! equipped with a 57mm autocannon it should make light work of anything it encounters on the battlefield, save maybe an Adler of course.
+
 - # T-55AMV & T-62MV
 - The USSR's aging tanks' mid 80's upgrade packages, complete with Kontakt-1 ERA!
 <img width="925" height="596" alt="image" src="https://github.com/user-attachments/assets/64df9592-8c11-451e-9c46-4e3ed315b792" />
