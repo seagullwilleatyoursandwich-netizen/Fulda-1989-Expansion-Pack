@@ -53,6 +53,9 @@ The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, mu
 - # BMP-2D Obr.1984 + BMP-2MD (PIL ONLY VARIANT) - A much-needed upgrade. (COMPLETE!)
 - The USSR finally felt like their paper armour APC needed an upgrade, especially with the threat of M2A2 Bradleys. (Has unique PIL interaction with BMP-2M!)
 <img width="1920" height="1080" alt="BMP-2 Update Thumbnail" src="https://github.com/user-attachments/assets/ebe696f0-83a0-4b43-bda7-d66c704213a9" />
+(BMP-2MD for reference, only occurs if you have Pact Increased Lethality installed and the right modifications enabled, needs kornets for the conversion to change the name): 
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/dd9be6eb-91b2-4be5-8bc0-ef5f29a1c6d6" />
+
 
 - # PT-76E - The little tank! (CONFIRMED)
 - This underdog (no pun intended with underdogs enhanced...) gets some modernisation! equipped with a 57mm autocannon it should make light work of anything it encounters on the battlefield, save maybe an Adler of course.
