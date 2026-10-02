@@ -20,7 +20,7 @@ In this fictional scenario, based on the original games' 1985 setting, instead o
 
 # !DEVELOPMENT ROADMAP!
 
-# NATO's Lineup!
+# NATO's Planned Lineup!
 
 - # M60A1/3 ERA - The Gulf War came early. (COMPLETE!)
 - The M60 receives some love! At a spawnrate of around 30-70% (dependent on the original m60 type), the Gulf War ERA-retrofit M1 package for the M60A1 and M60A3 has arrived to GHPC! Its chemical energy stopping power is slightly inferior to the soviet's Kontakt-5, it provides double the KE protection, and a little extra CE compared to Kontakt-1! 
@@ -35,21 +35,22 @@ This should make the M60 a more usable asset on the battlefield, especially with
 
 - # Leopard 2K - The Bundeswehr's answer to the M1! (COMPLETE!)
 - This prototype vehicle finally gets its spotlight in Gunner HEAT PC! The Leopard 2K (and its fictional upgrades) serve to replace Leopard 1A4 spawns, giving the Bundeswehr a stop-gap MBT between the Leopard 1 and Leopard 2.
+ <img width="1920" height="1080" alt="Leopard 2K update" src="https://github.com/user-attachments/assets/1483e53d-1620-4ae5-9ac4-147fead51bf8" />
 - The upgrades available so far range from the base Leopard 2K (1970's) to:
 - Leopard 2KA1 'Vogel' (1983), Improved FCS ("EMES-12K" + Thermal Imaging), 120mm DM23 APFSDS + 20mm DM81 HEI round.
 - Leopard 2KA2 'Falke' (1986), FCS Upgrade "EMES-12K1", 120mm DM33 APFSDS + "Eber" composite armour package
+<img width="1920" height="1080" alt="Leopard 2KA2 teaser" src="https://github.com/user-attachments/assets/83dae8b0-8335-4dce-aa5c-c3664f120685" />
 - Leopard 2KA3  'Adler' (1989), "Vorschlaghammer" Composite package, "DM43K" Experimental 120mm APFSDS round, "PERI-R12K2" CITV, DM63 APDS for the Rh-202 roof gun.
-<img width="1920" height="1080" alt="Leopard 2K update" src="https://github.com/user-attachments/assets/1483e53d-1620-4ae5-9ac4-147fead51bf8" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/90e71ccf-d9f5-4b77-8d23-a5f6eea6ff36" />
 
+# PACT's Planned Lineup! 
 
-# PACT's Lineup! 
-
-- # T-64BV/AV - ATLAS's most hated tank. (COMPLETE!)
+- # T-64BV/AV - The tank that ATLAS didn't feel like making, so I made it instead (lol) (COMPLETE!)
 - The T64 *finally* receives an upgrade! Introducing the T-64BV, T-64B1V and the T-64AV! These packages aim to improve survivability of the USSR's most abundant tank type in Fulda.
 The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, much improved ammunition (3BM32 by default, 3BM26 by default for the AV and 3BK18M for both) and most importantly, a large layer of Kontakt-1 ERA across the turret, side skirts and frontal armour! Massively improving its performance against ATGM's and infantry-launched AT weapons.
 <img width="2560" height="1440" alt="2026-07-19T202820" src="https://github.com/user-attachments/assets/0d7bd11a-0047-456a-8646-3519a7299d55" />
 
-- # BMP-2D Obr.1984 - A much-needed upgrade. (COMPLETE!)
+- # BMP-2D Obr.1984 + BMP-2MD (PIL ONLY VARIANT) - A much-needed upgrade. (COMPLETE!)
 - The USSR finally felt like their paper armour APC needed an upgrade, especially with the threat of M2A2 Bradleys. (Has unique PIL interaction with BMP-2M!)
 <img width="1920" height="1080" alt="BMP-2 Update Thumbnail" src="https://github.com/user-attachments/assets/ebe696f0-83a0-4b43-bda7-d66c704213a9" />
 
