@@ -1,6 +1,7 @@
 
 # Attributions/Credits 
 - ATLAS, numerous assets (Kontakt-5 plates, slat armour, etc.)
+- Fcpx + Illuminati, Fulda 1989 Team - Leopard 2K Olive drab texture.
 - evt22, Sketchfab - Kontakt-1 bricks. (https://sketchfab.com/evt22)
 - Toxic_Cxnt05 for his help with providing a RH202 optic harmony patch. (THANK U CRO)
 - ATLAS for his help with code, (thank you cro)
@@ -13,7 +14,11 @@
 # Join the Gunner, HEAT, PC! Discord Server to interact with me in my thread for suggestions, votes, and sneak peeks on upcoming vehicles! discord.gg/ghpc
 # The Fulda 1989 Expansion Pack Project for Gunner, HEAT, PC! 
 
-Hello! This project aims to expand the GHPC lineup by adding tanks all the way up to late 1989 (with some wiggle room). 
+Lead Developer/Founder - Ziron (ZironTheDerg)
+QA - Illuminati, Seal, Rain "Raine"
+Contributors - ATLAS, Toxic_Cxnt05, Illuminati, Fcpx
+
+Hello! This project aims to expand the GHPC lineup by adding tanks all the way up to late 1989 (with some wiggle room for anachronistic details due to the alt history). 
 In this fictional scenario, based on the original games' 1985 setting, instead of the cold war kicking off immediately both NATO and the USSR begin small skirmishes and proxies for the next few years, massively accelerating development of known tanks and technologies.
 
 <img width="1920" height="1080" alt="Still 2026-07-09 061234_1 1 1" src="https://github.com/user-attachments/assets/66a7d73a-9ba9-4d8f-9902-8e312adad943" />
