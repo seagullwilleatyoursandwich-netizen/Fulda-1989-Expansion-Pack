@@ -15,7 +15,9 @@
 # The Fulda 1989 Expansion Pack Project for Gunner, HEAT, PC! 
 
 Lead Developer/Founder - Ziron (ZironTheDerg)
+
 QA - Illuminati, Seal, Rain "Raine"
+
 Contributors - ATLAS, Toxic_Cxnt05, Illuminati, Fcpx
 
 Hello! This project aims to expand the GHPC lineup by adding tanks all the way up to late 1989 (with some wiggle room for anachronistic details due to the alt history). 
