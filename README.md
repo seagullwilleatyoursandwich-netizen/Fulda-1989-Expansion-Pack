@@ -24,6 +24,7 @@ Hello! This project aims to expand the GHPC lineup by adding tanks all the way u
 In this fictional scenario, based on the original games' 1985 setting, instead of the cold war kicking off immediately both NATO and the USSR begin small skirmishes and proxies for the next few years, massively accelerating development of known tanks and technologies.
 
 <img width="1920" height="1080" alt="Still 2026-07-09 061234_1 1 1" src="https://github.com/user-attachments/assets/66a7d73a-9ba9-4d8f-9902-8e312adad943" />
+^vehicles featured are from ATLAS's M1A1 and Pact Increased Lethality mods respectively, they were used for the thumbnail because they're cool okay?^
 
 # !DEVELOPMENT ROADMAP!
 
