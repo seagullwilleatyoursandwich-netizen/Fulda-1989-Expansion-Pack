@@ -64,10 +64,6 @@ The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, mu
 (BMP-2MD for reference, only occurs if you have Pact Increased Lethality installed and the right modifications enabled, needs kornets for the conversion to change the name): 
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/dd9be6eb-91b2-4be5-8bc0-ef5f29a1c6d6" />
 
-
-- # PT-76E - The little tank! (CONFIRMED)
-- This underdog (no pun intended with underdogs enhanced...) gets some modernisation! equipped with a 57mm autocannon it should make light work of anything it encounters on the battlefield, save maybe an Adler of course.
-
 - # T-55AMV & T-62MV
 - The USSR's aging tanks' mid 80's upgrade packages, complete with Kontakt-1 ERA!
 <img width="925" height="596" alt="image" src="https://github.com/user-attachments/assets/64df9592-8c11-451e-9c46-4e3ed315b792" />
