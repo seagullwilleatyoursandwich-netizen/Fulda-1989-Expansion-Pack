@@ -20,6 +20,9 @@ QA - Illuminati, Seal, Rain "Raine"
 
 Contributors - ATLAS, Toxic_Cxnt05, Illuminati, Fcpx
 
+# DEPENDENCIES - MUST INSTALL IN VERSIONS ABOVE V1.4.0!
+- VanillaAssetUtil - By ATLAS https://github.com/thebeninator/VanillaAssetUtil/releases/latest
+
 Hello! This project aims to expand the GHPC lineup by adding tanks all the way up to late 1989 (with some wiggle room for anachronistic details due to the alt history). 
 In this fictional scenario, based on the original games' 1985 setting, instead of the cold war kicking off immediately both NATO and the USSR begin small skirmishes and proxies for the next few years, massively accelerating development of known tanks and technologies.
 
