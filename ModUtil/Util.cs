@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using GHPC;
@@ -8,11 +8,11 @@ using GHPC.Thermals;
 using UnityEngine;
 using GHPC.Effects;
 
-namespace ModUtil
+namespace Fulda1989
 {
     public sealed class AlreadyConverted : MonoBehaviour
     {
-        void Awake() 
+        void Awake()
         {
             enabled = false;
         }
@@ -22,12 +22,20 @@ namespace ModUtil
     {
         public static ImpactEffectsDatabaseScriptable impact_fx_db;
 
-        public static string[] menu_screens = new string[] {
+        public static string[] MenuScreensWithLoader = new string[] {
             "MainMenu2_Scene",
             "MainMenu2-1_Scene",
             "LOADER_MENU",
             "LOADER_INITIAL",
-            "t64_menu"
+            "t64_menu",
+            "leo2_menu"
+        };
+
+        public static string[] MenuScreens = new string[] {
+            "MainMenu2_Scene",
+            "MainMenu2-1_Scene",
+            "t64_menu",
+            "leo2_menu"
         };
 
         public static void CacheAmmo(AmmoType ammo)
@@ -43,7 +51,8 @@ namespace ModUtil
             ammo.CachedIndex = id;
         }
 
-        public static void CreateUniformArmour(GameObject go, string name, float rha_sabot, float rha_heat, ArmorCodexScriptable codex = null) {
+        public static void CreateUniformArmour(GameObject go, string name, float rha_sabot, float rha_heat, ArmorCodexScriptable codex = null)
+        {
             UniformArmor component = go.AddComponent<UniformArmor>();
             go.tag = "Penetrable";
             go.layer = 8;
@@ -51,7 +60,8 @@ namespace ModUtil
             component.PrimaryHeatRha = rha_heat;
             component.PrimarySabotRha = rha_sabot;
 
-            if (codex != null) {
+            if (codex != null)
+            {
                 component._armorType = codex;
             }
         }
