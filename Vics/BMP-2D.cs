@@ -1,15 +1,10 @@
-﻿using GHPC;
-using GHPC.Effects.Voices;
-using GHPC.Equipment;
-using GHPC.Equipment.Optics;
+using GHPC;
 using GHPC.State;
 using GHPC.Utility;
 using GHPC.Vehicle;
-using GHPC.Weapons;
+using HarmonyLib;
 using MelonLoader;
 using MelonLoader.Utils;
-using ModUtil;
-using NWH.VehiclePhysics;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -41,7 +36,7 @@ namespace Fulda1989
             foreach (Vehicle vic in Mod.vics)
             {
                 if (vic == null) continue;
-                MelonLogger.Msg("Detected vehicle: " + vic.FriendlyName);
+                //MelonLogger.Msg("Detected vehicle: " + vic.FriendlyName);
 
                 GameObject vic_go = vic.gameObject;
                 if (!vic.FriendlyName.Contains("BMP")) continue;
@@ -66,11 +61,12 @@ namespace Fulda1989
                 bool converted_to_bmp2d = bmp2d_patch.Value && UnityEngine.Random.Range(0, 100) < conversion_chance;
                 if (converted_to_bmp2d)
                 {
+                    vic_go.AddComponent<BMP2D_Applied>();
                     vic_go.AddComponent<AlreadyConverted>();
 
                     if (vic.FriendlyName is ("BMP-2") && bmp2d_patch.Value)
                     {
-                        vic._friendlyName = "BMP-2D Obr. 1984";
+                        vic._friendlyName = "BMP-2D obr.1984";
                     }
 
                     Transform hull = vic.transform.Find("BMP2_visual/HULL");
@@ -129,7 +125,10 @@ namespace Fulda1989
                     {
                         camonet3.gameObject.SetActive(false);
                     }
-
+                    Transform BMP2MEhull = armour_hull.transform.Find("2MD-E hull");
+                    Transform BMP2MEturret = armour_turret.transform.Find("2MD-E turret");
+                    BMP2MEhull.gameObject.SetActive(false);
+                    BMP2MEturret.gameObject.SetActive(false);
                     // BMP-2M Name Check for PIL
                     string BMP2M_type_name = Assembly.CreateQualifiedName("PactIncreasedLethality", "PactIncreasedLethality.BMP2");
                     Type BMP2M_type = Type.GetType(BMP2M_type_name);
@@ -145,11 +144,103 @@ namespace Fulda1989
 
                         if (cfg_has_kornets != null && cfg_has_kornets.Value)
                         {
-                            vic._friendlyName = "BMP-2MD";
+                            vic._friendlyName = "BMP-2M-E 'Ekrany'";
+                        }
+                        if (vic.FriendlyName == "BMP-2M-E 'Ekrany'")
+                        {
+                            BMP2MEhull.gameObject.SetActive(true);
+                            BMP2MEturret.gameObject.SetActive(true);
                         }
                     }
+                    ArmyBinocularLookupFix.EnsureSovietEntries(vic.FriendlyName);
                     yield return null;
                 }
+            }
+        }
+
+        [HarmonyPatch]
+        public static class PILBMP2CompatibilityPatch
+        {
+            static readonly Dictionary<Vehicle, Stack<string>> _nameStacks = new Dictionary<Vehicle, Stack<string>>();
+
+            static MethodBase TargetMethod()
+            {
+                Type type = AccessTools.TypeByName("PactIncreasedLethality.BMP2");
+                return type != null
+                    ? AccessTools.Method(type, "HandleConversion", new[] { typeof(Vehicle) })
+                    : null;
+            }
+
+            static bool Prepare()
+            {
+                Type type = AccessTools.TypeByName("PactIncreasedLethality.BMP2");
+                return type != null && AccessTools.Method(type, "HandleConversion", new[] { typeof(Vehicle) }) != null;
+            }
+
+            static void Prefix(Vehicle vic)
+            {
+                if (vic == null || vic.GetComponent<BMP2D_Applied>() == null)
+                    return;
+
+                if (!_nameStacks.TryGetValue(vic, out Stack<string> stack))
+                {
+                    stack = new Stack<string>();
+                    _nameStacks[vic] = stack;
+                }
+
+                stack.Push(vic._friendlyName);
+                MelonLogger.Msg($"[BMP2 PIL COMPAT] PREFIX: {vic._friendlyName} -> BMP-2");
+
+                vic._friendlyName = "BMP-2";
+            }
+
+            static void Postfix(Vehicle vic)
+            {
+                if (vic == null || !_nameStacks.TryGetValue(vic, out Stack<string> stack) || stack.Count == 0)
+                    return;
+
+                string originalName = stack.Pop();
+
+                // Nested/repeated HandleConversion call: leave the vehicle as BMP-2
+                // until the outermost call finishes.
+                if (stack.Count > 0)
+                    return;
+
+                if (vic.FriendlyName == "BMP-2M")
+                    vic._friendlyName = "BMP-2M-E 'Ekrany'";
+                else
+                    vic._friendlyName = originalName;
+
+                _nameStacks.Remove(vic);
+
+                // Apply Fulda's smoke launcher adjustments AFTER PIL has created its kit.
+                if (vic.FriendlyName == "BMP-2M-E 'Ekrany'")
+                {
+                    Transform turret = vic.transform.Find("BMP2_rig/HULL/TURRET");
+
+                    if (turret == null)
+                    {
+                        MelonLogger.Warning("[BMP2 PIL COMPAT] Could not find BMP-2 turret for smoke launcher adjustment.");
+                        return;
+                    }
+
+                    Transform kit = turret.GetComponentsInChildren<Transform>(true).FirstOrDefault(t => t.name == "BMP2M_KIT(Clone)" || t.name == "BMP2M_KIT");
+
+                    Transform pilSmokes = kit != null ? kit.Find("bmp2_front_smokes") : null;
+
+                    if (pilSmokes == null)
+                    {
+                        MelonLogger.Warning("[BMP2 PIL COMPAT] Could not find bmp2_front_smokes inside PIL's runtime kit.");
+                        return;
+                    }
+
+                    pilSmokes.localPosition = new Vector3(0.1f, 0.1f, 0f);
+                    pilSmokes.localScale = new Vector3(100f, 80f, 100f);
+
+                    MelonLogger.Msg("[BMP2 PIL COMPAT] Applied Fulda smoke launcher position and scale after PIL conversion.");
+                }
+
+                MelonLogger.Msg($"[BMP2 PIL COMPAT] RESTORED: {vic.FriendlyName}");
             }
         }
         public override void LoadStaticAssets()
@@ -178,6 +269,104 @@ namespace Fulda1989
                 hull_applique._canShatterLongRods = true;
                 hull_applique._normalizesHits = true;
                 hull_applique.AngleMatters = true;
+            }
+
+            Transform bmp2mehull = BMP2D_Assets.bmp2d_full.transform.Find("addon sides/2MD-E hull/2MD-E colliders");
+
+            foreach (MeshCollider collider in bmp2mehull.GetComponentsInChildren<MeshCollider>(true))
+            {
+                UniformArmor bmp2mehullarmour = collider.gameObject.AddComponent<UniformArmor>();
+
+                string name = collider.gameObject.name;
+
+                bmp2mehullarmour.tag = "Penetrable";
+                bmp2mehullarmour.gameObject.layer = 8;
+                bmp2mehullarmour._canShatterLongRods = true;
+                bmp2mehullarmour._normalizesHits = true;
+                bmp2mehullarmour.AngleMatters = true;
+
+                if (name is ("LFP"))
+                {
+                    bmp2mehullarmour._name = "lower glacis plate addon";
+                    bmp2mehullarmour.PrimaryHeatRha = 12f;
+                    bmp2mehullarmour.PrimarySabotRha = 12f;
+                }
+                else if (name is ("ufp"))
+                {
+                    bmp2mehullarmour._name = "upper glacis plate addon";
+                    bmp2mehullarmour.PrimaryHeatRha = 10f;
+                    bmp2mehullarmour.PrimarySabotRha = 10f;
+                }
+                else if (name is ("ufp left"))
+                {
+                    bmp2mehullarmour._name = "upper glacis plate addon";
+                    bmp2mehullarmour.PrimaryHeatRha = 9f;
+                    bmp2mehullarmour.PrimarySabotRha = 9f;
+                }
+                else if (name is ("hull roof"))
+                {
+                    bmp2mehullarmour._name = ("hull roof addon");
+                    bmp2mehullarmour.PrimaryHeatRha = 7f;
+                    bmp2mehullarmour.PrimarySabotRha = 7f;
+                }
+                else if (name is ("hull roof mount"))
+                {
+                    bmp2mehullarmour._name = ("hull roof mount addon");
+                    bmp2mehullarmour.PrimaryHeatRha = 4f;
+                    bmp2mehullarmour.PrimarySabotRha = 4f;
+                }
+                else if (name is ("hull roof mount 2"))
+                {
+                    bmp2mehullarmour._name = ("hull roof mount addon");
+                    bmp2mehullarmour.PrimaryHeatRha = 4f;
+                    bmp2mehullarmour.PrimarySabotRha = 4f;
+                }
+                else if (name is ("boxr"))
+                {
+                    bmp2mehullarmour._name = ("steel box");
+                    bmp2mehullarmour.PrimaryHeatRha = 5f;
+                    bmp2mehullarmour.PrimarySabotRha = 5f;
+                }
+                else if (name is ("boxl"))
+                {
+                    bmp2mehullarmour._name = ("steel box");
+                    bmp2mehullarmour.PrimaryHeatRha = 5f;
+                    bmp2mehullarmour.PrimarySabotRha = 5f;
+                }
+            }
+
+            Transform bmp2meturret = BMP2D_Assets.bmp2d_full.transform.Find("turret applique/2MD-E turret/2MD-E turret colliders");
+
+            foreach (MeshCollider collider in bmp2meturret.GetComponentsInChildren<MeshCollider>(true))
+            {
+                UniformArmor bmp2meturretarmour = collider.gameObject.AddComponent<UniformArmor>();
+
+                string name = collider.gameObject.name;
+
+                bmp2meturretarmour.tag = "Penetrable";
+                bmp2meturretarmour.gameObject.layer = 8;
+                bmp2meturretarmour._canShatterLongRods = true;
+                bmp2meturretarmour._normalizesHits = true;
+                bmp2meturretarmour.AngleMatters = true;
+
+                if (name is ("rear box applique (1)"))
+                {
+                    bmp2meturretarmour._name = "rear turret Ekrany screening";
+                    bmp2meturretarmour.PrimaryHeatRha = 35f;
+                    bmp2meturretarmour.PrimarySabotRha = 35f;
+                }
+                else if (name is ("right (1)"))
+                {
+                    bmp2meturretarmour._name = "right Ekrany cheek";
+                    bmp2meturretarmour.PrimaryHeatRha = 25f;
+                    bmp2meturretarmour.PrimarySabotRha = 25f;
+                }
+                else if (name is ("left (1)"))
+                {
+                    bmp2meturretarmour._name = "left Ekrany cheek";
+                    bmp2meturretarmour.PrimaryHeatRha = 25f;
+                    bmp2meturretarmour.PrimarySabotRha = 25f;
+                }
             }
 
             Transform turret_rear = BMP2D_Assets.bmp2d_full.transform.Find("turret applique/turret applique collider/rear turret colliders");
@@ -234,7 +423,7 @@ namespace Fulda1989
         {
             if (!bmp2d_patch.Value) return;
 
-            StateController.RunOrDefer(GameState.GameReady, new GameStateEventHandler(Convert), GameStatePriority.Medium);
+            StateController.RunOrDefer(GameState.PlayerReady, new GameStateEventHandler(Convert), GameStatePriority.Medium);
         }
     }
 }
