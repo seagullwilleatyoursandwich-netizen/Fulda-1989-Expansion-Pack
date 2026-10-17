@@ -34,10 +34,9 @@ In this fictional scenario, based on the original games' 1985 setting, instead o
 # NATO's Planned Lineup!
 
 - # M60A1/3 ERA - The Gulf War came early. (COMPLETE!)
-- The M60 receives some love! At a spawnrate of around 30-70% (dependent on the original m60 type), the Gulf War ERA-retrofit M1 package for the M60A1 and M60A3 has arrived to GHPC! Its chemical energy stopping power is slightly inferior to the soviet's Kontakt-5, it provides double the KE protection, and a little extra CE compared to Kontakt-1! 
-This should make the M60 a more usable asset on the battlefield, especially with PACT equipping itself with its own ERA and advanced tanks.
+- The M60 receives some love! This Gulf War era tank with retrofitted reactive armour makes it debut! 
+By default, all converted M60 ERA's are given M833, but the M60A3 TTS *exclusively* can receive M900 and its gun changed to the 105mm M68A1 when it does!
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/fb1aa70d-85ae-4f41-bea5-c25cb68547e0" />
-
 
 - # M60AX + M60AXA1 - The Abrams’ cousin (ON HOLD)
 - The Super M60 program arises from the dead! Bringing itself an in-service variant with a 20mm commander gun, in addition to a "what-if" variant with a 120mm retrofitted main cannon, the M60AX is an M60A3 with significantly improved FCS performance, in addition to new armour and a much needed new engine.
@@ -46,7 +45,7 @@ This should make the M60 a more usable asset on the battlefield, especially with
 - # Leopard 2A4 (Type C armour variant) + Leopard 2A4 (140MM) - (TO BE DETERMINED - After the official GHPC's Leopard 2 is released)
 
 - # Leopard 2K - The Bundeswehr's answer to the M1! (COMPLETE!)
-- This prototype vehicle finally gets its spotlight in Gunner HEAT PC! The Leopard 2K (and its fictional upgrades) serve to replace Leopard 1A4 spawns, giving the Bundeswehr a stop-gap MBT between the Leopard 1 and Leopard 2.
+- This prototype vehicle finally gets its spotlight in Gunner HEAT PC! The Leopard 2K (and its fictional upgrades) serve to replace Leopard 1A4 spawns, giving the Bundeswehr a stop-gap/sidegrade MBT against the main Leopard 2.
  <img width="1920" height="1080" alt="Leopard 2K update" src="https://github.com/user-attachments/assets/1483e53d-1620-4ae5-9ac4-147fead51bf8" />
 - The upgrades available so far range from the base Leopard 2K (1970's) to:
 - Leopard 2KA1 'Vogel' (1983), Improved FCS ("EMES-12K" + Thermal Imaging), 120mm DM23 APFSDS + 20mm DM81 HEI round.
@@ -62,18 +61,18 @@ This should make the M60 a more usable asset on the battlefield, especially with
 The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, much improved ammunition (3BM32 by default, 3BM26 by default for the AV and 3BK18M for both) and most importantly, a large layer of Kontakt-1 ERA across the turret, side skirts and frontal armour! Massively improving its performance against ATGM's and infantry-launched AT weapons.
 <img width="2560" height="1440" alt="2026-07-19T202820" src="https://github.com/user-attachments/assets/0d7bd11a-0047-456a-8646-3519a7299d55" />
 
-- # BMP-2D Obr.1984 + BMP-2MD (PIL ONLY VARIANT) - A much-needed upgrade. (COMPLETE!)
-- The USSR finally felt like their paper armour APC needed an upgrade, especially with the threat of M2A2 Bradleys. (Has unique PIL interaction with BMP-2M!)
+- # BMP-2D Obr.1984 + BMP-2M-E 'Ekrany' (EKRANY IS A PIL ONLY VARIANT) - A much-needed upgrade. (COMPLETE!)
+- The USSR finally felt like their paper armour APC needed an upgrade, especially with the threat of M2A2 Bradleys.
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/05ff9c0e-97ab-4ee5-8987-bfa3646fb599" />
-(BMP-2MD for reference, only occurs if you have Pact Increased Lethality installed and the right modifications enabled, needs kornets for the conversion to change the name): 
+(BMP-2M-E 'Ekrany' for reference, only occurs if you have Pact Increased Lethality installed and the right modifications enabled, needs kornets enabled for this to appear.): 
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/dd9be6eb-91b2-4be5-8bc0-ef5f29a1c6d6" />
 
-- # T-55AMV & T-62MV
+- # T-55AMV & T-62MV (PLANNED)
 - The USSR's aging tanks' mid 80's upgrade packages, complete with Kontakt-1 ERA!
 <img width="925" height="596" alt="image" src="https://github.com/user-attachments/assets/64df9592-8c11-451e-9c46-4e3ed315b792" />
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/06bda0b0-3ab9-4b1a-b5f8-65bea862bb82" />
 
-- # Object 292 - PACT Bias incarnate
+- # Object 292 - PACT Bias incarnate (???)
 - The USSR's 152mm monster.
 <img width="550" height="365" alt="image" src="https://github.com/user-attachments/assets/9722b365-c3fb-4299-b4e4-e52c9de051bf" />
 
