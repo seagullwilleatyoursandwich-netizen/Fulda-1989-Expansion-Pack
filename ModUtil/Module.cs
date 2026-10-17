@@ -1,9 +1,16 @@
-﻿namespace ModUtil
+using System.Collections;
+using GHPC.State;
+using MelonLoader;
+
+namespace ModUtil
 {
     public class Module
     {
         private bool static_assets_loaded = false;
         private bool dynamic_assets_loaded = false;
+        private bool dynamic_assets_load_pending = false;
+        internal string mod_id;
+        public string Id { get; set; }
 
         public bool TryLoadStaticAssets()
         {
@@ -18,13 +25,21 @@
 
         public bool TryLoadDynamicAssets()
         {
-            if (dynamic_assets_loaded) return false;
+            if (dynamic_assets_loaded || dynamic_assets_load_pending) return false;
 
-            LoadDynamicAssets();
+            dynamic_assets_load_pending = true;
 
-            dynamic_assets_loaded = true;
+            try
+            {
+                StateController.RunOrDefer(LoadState, new GameStateEventHandler(LoadDynamicAssetsDeferred));
 
-            return true;
+                return true;
+            }
+            catch
+            {
+                dynamic_assets_load_pending = false;
+                throw;
+            }
         }
 
         public bool TryUnloadDynamicAssets()
@@ -38,6 +53,30 @@
             return true;
         }
 
+        private IEnumerator LoadDynamicAssetsDeferred(GameState _)
+        {
+            if (dynamic_assets_loaded)
+            {
+                dynamic_assets_load_pending = false;
+                yield break;
+            }
+
+            try
+            {
+                LoadDynamicAssets();
+                dynamic_assets_loaded = true;
+
+                MelonLogger.Msg(mod_id + " finished dynamic assets loading from module: " + Id);
+            }
+            finally
+            {
+                dynamic_assets_load_pending = false;
+            }
+
+            yield break;
+        }
+
+        public virtual GameState LoadState => GameState.PlayerReady;
         public virtual void LoadStaticAssets() { }
         public virtual void LoadDynamicAssets() { }
 
