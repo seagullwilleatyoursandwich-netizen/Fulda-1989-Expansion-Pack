@@ -18,7 +18,7 @@ Lead Developer/Founder - Ziron (ZironTheDerg)
 
 QA - Illuminati, Seal, Rain "Raine"
 
-Contributors - ATLAS, Toxic_Cxnt05, Illuminati, Fcpx
+Contributors - ATLAS, Toxic_Cxnt05, Illuminati, Fcpx, Aeiou6
 
 # DEPENDENCIES - MUST INSTALL IN VERSIONS ABOVE V1.4.0!
 - VanillaAssetUtil - By ATLAS https://github.com/thebeninator/VanillaAssetUtil/releases/latest
