@@ -64,8 +64,8 @@ The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, mu
 - # BMP-2D Obr.1984 + BMP-2M-E 'Ekrany' (EKRANY IS A PIL ONLY VARIANT) - A much-needed upgrade. (COMPLETE!)
 - The USSR finally felt like their paper armour APC needed an upgrade, especially with the threat of M2A2 Bradleys.
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/05ff9c0e-97ab-4ee5-8987-bfa3646fb599" />
-(BMP-2M-E 'Ekrany' for reference, only occurs if you have Pact Increased Lethality installed and the right modifications enabled, needs kornets enabled for this to appear.): 
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/dd9be6eb-91b2-4be5-8bc0-ef5f29a1c6d6" />
+(BMP-2M-E 'Ekrany' for reference, only spawns if you have Pact Increased Lethality installed and the right modifications enabled, needs kornets and applique enabled for this to appear.): 
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/6eb95962-b596-42df-8d77-55a0bbcfeb0b" />
 
 - # T-55AMV & T-62MV (PLANNED)
 - The USSR's aging tanks' mid 80's upgrade packages, complete with Kontakt-1 ERA!
