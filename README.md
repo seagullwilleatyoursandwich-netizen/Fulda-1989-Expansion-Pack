@@ -56,12 +56,12 @@ By default, all converted M60 ERA's are given M833, but the M60A3 TTS *exclusive
 
 # PACT's Planned Lineup! 
 
-- # T-64BV/AV - The tank that ATLAS didn't feel like making, so I made it instead (lol) (COMPLETE!)
+- # T-64BV/AV - The tank that ATLAS didn't feel like making, so I made it instead (COMPLETE!)
 - The T64 *finally* receives an upgrade! Introducing the T-64BV, T-64B1V and the T-64AV! These packages aim to improve survivability of the USSR's most abundant tank type in Fulda.
 The T-64BV and B1V both receive access to Agava-1 Thermal Imagers by default, much improved ammunition (3BM32 by default, 3BM26 by default for the AV and 3BK18M for both) and most importantly, a large layer of Kontakt-1 ERA across the turret, side skirts and frontal armour! Massively improving its performance against ATGM's and infantry-launched AT weapons.
 <img width="2560" height="1440" alt="2026-07-19T202820" src="https://github.com/user-attachments/assets/0d7bd11a-0047-456a-8646-3519a7299d55" />
 
-- # BMP-2D Obr.1984 + BMP-2M-E 'Ekrany' (EKRANY IS A PIL ONLY VARIANT) - A much-needed upgrade. (COMPLETE!)
+- # BMP-2D Obr.1984 + BMP-2M-E 'Ekrany' - A much-needed upgrade. (COMPLETE!)
 - The USSR finally felt like their paper armour APC needed an upgrade, especially with the threat of M2A2 Bradleys.
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/05ff9c0e-97ab-4ee5-8987-bfa3646fb599" />
 (BMP-2M-E 'Ekrany' for reference, only spawns if you have Pact Increased Lethality installed and the right modifications enabled, needs kornets and applique enabled for this to appear.): 
