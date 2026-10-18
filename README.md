@@ -43,7 +43,7 @@ By default, all converted M60 ERA's are given M833, but the M60A3 TTS *exclusive
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/fb1aa70d-85ae-4f41-bea5-c25cb68547e0" />
 
 - # M60AX + M60AXA1 - The Abrams’ cousin (ON HOLD)
-- The Super M60 program arises from the dead! Bringing itself an in-service variant with a 20mm commander gun, in addition to a "what-if" variant with a 120mm retrofitted main cannon, the M60AX is an M60A3 with significantly improved FCS performance, in addition to new armour and a much needed new engine.
+- The Super M60 program arises from the dead! The M60AX is an M60A3 with significantly improved FCS performance, in addition to new armour, new shells and a much needed improved engine.
 <img width="962" height="761" alt="image" src="https://github.com/user-attachments/assets/0fbf47f0-ed0f-4993-b8ff-4c18b48ac847" />
 
 - # Leopard 2A4 (Type C armour variant) (COMPLETE)
