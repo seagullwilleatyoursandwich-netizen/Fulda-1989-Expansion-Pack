@@ -1,10 +1,13 @@
-﻿using GHPC.Equipment.Optics;
+using GHPC.Camera;
+using GHPC.Equipment.Optics;
 using GHPC.Vehicle;
 using MelonLoader;
+using Reticle;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using GHPC.Camera;
+using VanillaAssetUtil.AssetUtil;
 
 namespace Fulda1989
 {
@@ -86,9 +89,9 @@ namespace Fulda1989
         {
             Initialize();
 
-            FuldaAssetUtil.PrewarmVanillaVehicle(M60A3TtsPrefabName, new[] {FlirSlotPath, FlirPostPath});
+            PrewarmVanillaVehicle(M60A3TtsPrefabName, new[]
+            {FlirSlotPath,FlirPostPath});
         }
-
         private static void LoadOpticsDynamicAssets()
         {
             Vehicle m60a3 = LoadM60A3TtsVehicle();
@@ -124,6 +127,69 @@ namespace Fulda1989
                 ThermalFlirBlitMaterial.hideFlags = HideFlags.DontUnloadUnusedAsset;
         }
 
+        private static readonly HashSet<string> prewarmedVanillaVehicleKeys = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+        internal static Vehicle PrewarmVanillaVehicle(string name, string[] probePaths = null)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+                return null;
+
+            Vehicle vehicle = AssetUtilApi.LoadVanillaVehicle(name, temp: true);
+            if (vehicle == null)
+            {
+                MelonLoader.MelonLogger.Warning($"[Assets] Failed to load vanilla donor: {name}");
+                return null;
+            }
+
+            if (prewarmedVanillaVehicleKeys.Contains(name))
+                return vehicle;
+
+            try
+            {
+                Transform[] transforms = vehicle.GetComponentsInChildren<Transform>(true);
+                vehicle.GetComponentsInChildren<UsableOptic>(true);
+                vehicle.GetComponentsInChildren<ReticleMesh>(true);
+
+                if (probePaths != null)
+                {
+                    foreach (string probePath in probePaths)
+                    {
+                        if (string.IsNullOrWhiteSpace(probePath))
+                            continue;
+
+                        Transform probe = vehicle.transform.Find(probePath);
+
+                        if (probe == null)
+                        {
+                            foreach (Transform candidate in transforms)
+                            {
+                                if (candidate != null &&
+                                    string.Equals(candidate.name, probePath, StringComparison.OrdinalIgnoreCase))
+                                {
+                                    probe = candidate;
+                                    break;
+                                }
+                            }
+                        }
+
+                        if (probe != null)
+                        {
+                            probe.GetComponents<Component>();
+                            probe.GetComponentsInChildren<Component>(true);
+                        }
+                    }
+                }
+
+                prewarmedVanillaVehicleKeys.Add(name);
+            }
+            catch (Exception ex)
+            {
+                MelonLoader.MelonLogger.Warning($"[Assets] Vanilla donor prewarm failed: {name} | {ex.Message}");
+            }
+
+            return vehicle;
+        }
+
         private static void EnsureOpticsDynamicAssetsValid()
         {
             if (!opticsDynamicAssetsLoaded || ThermalFlirPostPrefab == null || ThermalFlirBlitMaterial == null)
@@ -134,12 +200,12 @@ namespace Fulda1989
 
         private static Vehicle LoadM60A3TtsVehicle()
         {
-            Vehicle donor = FuldaAssetUtil.LoadVanillaVehicle(M60A3TtsPrefabName);
+            Vehicle donor = AssetUtilApi.LoadVanillaVehicle(M60A3TtsPrefabName, temp: true);
 
             if (donor != null)
                 return donor;
 
-            donor = FuldaAssetUtil.LoadVanillaVehicle(M60A3TtsFriendlyName);
+            donor = AssetUtilApi.LoadVanillaVehicle(M60A3TtsFriendlyName, temp: true);
 
             if (donor != null)
                 return donor;
