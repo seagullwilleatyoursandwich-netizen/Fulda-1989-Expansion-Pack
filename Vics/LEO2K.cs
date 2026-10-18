@@ -1,4 +1,4 @@
-﻿using FuldaExpansion1989.Sights;
+using FuldaExpansion1989.Sights;
 using GHPC;
 using GHPC.AI;
 using GHPC.AI.Targeting;
