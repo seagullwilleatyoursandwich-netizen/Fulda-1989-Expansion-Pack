@@ -47,7 +47,7 @@ By default, all converted M60 ERA's are given M833, but the M60A3 TTS *exclusive
 <img width="962" height="761" alt="image" src="https://github.com/user-attachments/assets/0fbf47f0-ed0f-4993-b8ff-4c18b48ac847" />
 
 - # Leopard 2A4 (Type C armour variant) (COMPLETE)
-- The most infamous Leopard 2 variant makes its appearance in Gunner, HEAT, PC! This reflects the 6th batch (1988) of the Leopard 2A4's, equipped with C-Tech composite  
+- The most infamous Leopard 2 variant makes its appearance in Gunner, HEAT, PC! This reflects the 6th batch (1988) of the Leopard 2A4's, equipped with C-Tech composite and DM33 APFSDS!
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c63cf451-2d40-4aec-be0b-b3428ae05fd0" />
 
 - # Leopard 2A4 140mm Prototype (ON HOLD)
