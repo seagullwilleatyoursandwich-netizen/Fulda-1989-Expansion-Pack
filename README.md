@@ -33,6 +33,10 @@ In this fictional scenario, based on the original games' 1985 setting, instead o
 
 # NATO's Planned Lineup!
 
+- # XM1A3 "CATTB" - The United States' overkill machine! (PLANNED)
+- Why? Because 120mm wasn't enough.
+<img width="780" height="508" alt="image" src="https://github.com/user-attachments/assets/fc9e0dd2-356b-4714-8406-40cc6508b338" />
+
 - # M60A1/3 ERA - The Gulf War came early. (COMPLETE!)
 - The M60 receives some love! This Gulf War era tank with retrofitted reactive armour makes it debut! 
 By default, all converted M60 ERA's are given M833, but the M60A3 TTS *exclusively* can receive M900 and its gun changed to the 105mm M68A1 when it does!
@@ -42,19 +46,32 @@ By default, all converted M60 ERA's are given M833, but the M60A3 TTS *exclusive
 - The Super M60 program arises from the dead! Bringing itself an in-service variant with a 20mm commander gun, in addition to a "what-if" variant with a 120mm retrofitted main cannon, the M60AX is an M60A3 with significantly improved FCS performance, in addition to new armour and a much needed new engine.
 <img width="962" height="761" alt="image" src="https://github.com/user-attachments/assets/0fbf47f0-ed0f-4993-b8ff-4c18b48ac847" />
 
-- # Leopard 2A4 (Type C armour variant) + Leopard 2A4 (140MM) - (TO BE DETERMINED - After the official GHPC's Leopard 2 is released)
+- # Leopard 2A4 (Type C armour variant) (COMPLETE)
+- The most infamous Leopard 2 variant makes its appearance in Gunner, HEAT, PC! This reflects the 6th batch (1988) of the Leopard 2A4's, equipped with C-Tech composite  
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c63cf451-2d40-4aec-be0b-b3428ae05fd0" />
+
+- # Leopard 2A4 140mm Prototype (ON HOLD)
+- Hans, this seems a bit overkill.  
+- Nonsense! The 140mm is perfectly reasonable.
+<img width="670" height="331" alt="image" src="https://github.com/user-attachments/assets/d391464a-7d51-4512-ae8c-0615de49c5fd" />
 
 - # Leopard 2K - The Bundeswehr's answer to the M1! (COMPLETE!)
 - This prototype vehicle finally gets its spotlight in Gunner HEAT PC! The Leopard 2K (and its fictional upgrades) serve to replace Leopard 1A4 spawns, giving the Bundeswehr a stop-gap/sidegrade MBT against the main Leopard 2.
- <img width="1920" height="1080" alt="Leopard 2K update" src="https://github.com/user-attachments/assets/1483e53d-1620-4ae5-9ac4-147fead51bf8" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/52ce4a8e-e7df-457a-b6f6-28f7b1890ef6" />
 - The upgrades available so far range from the base Leopard 2K (1970's) to:
-- Leopard 2KA1 'Vogel' (1983), Improved FCS ("EMES-12K" + Thermal Imaging), 120mm DM23 APFSDS + 20mm DM81 HEI round.
+- Leopard 2KA1 'Vogel' (1983), Improved FCS ("EMES-12K" + Thermal Imaging), Applique steel armour, 120mm DM23 APFSDS + 20mm DM81 HEI round.
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/e90d5641-5272-4b2e-8c1e-aaab787de0e6" />
 - Leopard 2KA2 'Falke' (1986), FCS Upgrade "EMES-12K1", 120mm DM33 APFSDS + "Eber" composite armour package
-<img width="1920" height="1080" alt="Leopard 2KA2 teaser" src="https://github.com/user-attachments/assets/83dae8b0-8335-4dce-aa5c-c3664f120685" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/e5eefb34-abdb-46d7-ae6c-4989746c0ba0" />
 - Leopard 2KA3  'Adler' (1989), "Vorschlaghammer" Composite package, "DM43K" Experimental 120mm APFSDS round, "PERI-R12K2" CITV, DM63 APDS for the Rh-202 roof gun.
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/90e71ccf-d9f5-4b77-8d23-a5f6eea6ff36" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/eaaeedc0-5058-4041-a4f9-7d4385890939" />
+
 
 # PACT's Planned Lineup! 
+
+- # T-90 obr.1989 - What?! This tank doesnt belong in 1989! (wrong) (PLANNED) 
+- "Comrade, what if we made a T-72... but good?" 
+<img width="1600" height="1042" alt="image" src="https://github.com/user-attachments/assets/896ad1b6-61d8-4e62-9369-dcd14c3e6566" />
 
 - # T-64BV/AV - The tank that ATLAS didn't feel like making, so I made it instead (COMPLETE!)
 - The T64 *finally* receives an upgrade! Introducing the T-64BV, T-64B1V and the T-64AV! These packages aim to improve survivability of the USSR's most abundant tank type in Fulda.
