@@ -59,7 +59,7 @@ namespace Fulda1989
 
             string[] composite_names = new string[]
             {
-                "C-Tech Composite",
+                "C-Tech composite",
                 "Vorschlaghammer composite",
                 "Eber composite",
                 "Abrams special armor gen 1 hull front",
