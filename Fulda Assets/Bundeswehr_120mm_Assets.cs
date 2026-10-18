@@ -1,4 +1,4 @@
-﻿using GHPC.Thermals;
+using GHPC.Thermals;
 using GHPC.Weaponry;
 using MelonLoader;
 using MelonLoader.Utils;
@@ -18,30 +18,6 @@ namespace Fulda1989
 
         public override void LoadStaticAssets()
         {
-
-            // Load the vanilla vehicle that provides the 120mm ammunition assets first.
-            FuldaAssetUtil.LoadVanillaVehicle("LEO2A3");
-
-            var clipCodexes = Resources.FindObjectsOfTypeAll<AmmoClipCodexScriptable>();
-
-            var dm23 = clipCodexes.FirstOrDefault(o => o.name == "clip_DM23(120)");
-            var dm12a1 = clipCodexes.FirstOrDefault(o => o.name == "clip_DM12A1(120)");
-
-            ammo_APFSDS = dm23?.ClipType?.MinimalPattern?.FirstOrDefault()?.AmmoType;
-            ammo_HEAT = dm12a1?.ClipType?.MinimalPattern?.FirstOrDefault()?.AmmoType;
-
-            if (ammo_APFSDS == null)
-                MelonLogger.Error("[120MM] Could not find the DM23 ammunition type.");
-
-            if (ammo_HEAT == null)
-                MelonLogger.Error("[120MM] Could not find the DM12A1 ammunition type.");
-
-            MelonLogger.Msg($"[120MM] DM23 visual: {(ammo_APFSDS?.VisualModel != null)}");
-            MelonLogger.Msg($"[120MM] DM12A1 visual: {(ammo_HEAT?.VisualModel != null)}");
-
-            MelonLogger.Msg($"[120MM] DM23 visual found: {ammo_APFSDS.VisualModel != null}");
-            MelonLogger.Msg($"[120MM] DM12A1 visual found: {ammo_HEAT.VisualModel != null}");
-
             string path = Path.Combine(MelonEnvironment.ModsDirectory + "/Fulda1989", "l44");
 
             AssetBundle bundle = AssetBundle.LoadFromFile(path);
@@ -77,6 +53,31 @@ namespace Fulda1989
             l44Renderer.material.shader = flirShader;
             l44_obj.AddComponent<HeatSource>().heat = 0.75f;
             MelonLogger.Msg("[120MM] L/44 asset initialized successfully.");
+        }
+        public override void LoadDynamicAssets()
+        {
+            // Load the vanilla vehicle that provides the 120mm ammunition assets first.
+            AssetUtilApi.LoadVanillaVehicle("LEO2A3", temp: true);
+
+            var clipCodexes = Resources.FindObjectsOfTypeAll<AmmoClipCodexScriptable>();
+
+            var dm23 = clipCodexes.FirstOrDefault(o => o.name == "clip_DM23(120)");
+            var dm12a1 = clipCodexes.FirstOrDefault(o => o.name == "clip_DM12A1(120)");
+
+            ammo_APFSDS = dm23?.ClipType?.MinimalPattern?.FirstOrDefault()?.AmmoType;
+            ammo_HEAT = dm12a1?.ClipType?.MinimalPattern?.FirstOrDefault()?.AmmoType;
+
+            if (ammo_APFSDS == null)
+                MelonLogger.Error("[120MM] Could not find the DM23 ammunition type.");
+
+            if (ammo_HEAT == null)
+                MelonLogger.Error("[120MM] Could not find the DM12A1 ammunition type.");
+
+            MelonLogger.Msg($"[120MM] DM23 visual: {(ammo_APFSDS?.VisualModel != null)}");
+            MelonLogger.Msg($"[120MM] DM12A1 visual: {(ammo_HEAT?.VisualModel != null)}");
+
+            MelonLogger.Msg($"[120MM] DM23 visual found: {ammo_APFSDS.VisualModel != null}");
+            MelonLogger.Msg($"[120MM] DM12A1 visual found: {ammo_HEAT.VisualModel != null}");
         }
     }
 }
