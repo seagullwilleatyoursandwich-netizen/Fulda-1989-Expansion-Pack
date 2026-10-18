@@ -14,7 +14,7 @@ using System.Collections;
 using System.Linq;
 using UnityEngine;
 
-[assembly: MelonInfo(typeof(Mod), "Fulda 1989 | Expansion Pack [Leopard 2A4 + Remodel Update]", "V1.4.0", "ZironTheDerg")]
+[assembly: MelonInfo(typeof(Mod), "Fulda 1989 | Expansion Pack [Leopard 2A4 + Remodel Update]", "V1.4.2", "ZironTheDerg")]
 [assembly: MelonGame("Radian Simulations LLC", "GHPC")]
 
 namespace Fulda1989
@@ -69,6 +69,7 @@ namespace Fulda1989
             audio_channel_group.setMode(MODE._3D_WORLDRELATIVE);
 
             module_manager.Add("SharedAssets", new SharedAssets());
+            module_manager.Add("LEO2K_Assets", new LEO2K_Assets());
             module_manager.Add("Ammo_120mm_assets_Leo2k", new Bundeswehr_120mm_Assets());
             module_manager.Add("Ammo_20mm_assets_Leo2k", new Bundeswehr_20mm_Assets());
             module_manager.Add("AMMO_125MM", new Ammo_125mm());
@@ -77,7 +78,6 @@ namespace Fulda1989
             module_manager.Add("Ammo_20mm_Leo2k", new Ammo_20mm_Bundeswehr());
             module_manager.Add("M60_Assets", new M60_Assets());
             module_manager.Add("BMP2D_Assets", new BMP2D_Assets());
-            module_manager.Add("LEO2K_Assets", new LEO2K_Assets());
             module_manager.Add("T64Assets", new T64Assets());
             module_manager.Add("T64AV", new T64AV());
             module_manager.Add("T64BV", new T64BV());
