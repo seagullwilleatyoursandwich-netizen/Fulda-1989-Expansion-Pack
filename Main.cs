@@ -14,7 +14,7 @@ using System.Collections;
 using System.Linq;
 using UnityEngine;
 
-[assembly: MelonInfo(typeof(Mod), "Fulda 1989 | Expansion Pack [Leopard 2A4 + Remodel Update]", "V1.4.2", "ZironTheDerg")]
+[assembly: MelonInfo(typeof(Mod), "Fulda 1989 | Expansion Pack [Leopard 2A4 + Remodel Update]", "1.4.2A", "ZironTheDerg")]
 [assembly: MelonGame("Radian Simulations LLC", "GHPC")]
 
 namespace Fulda1989
@@ -120,8 +120,7 @@ namespace Fulda1989
 
             while (theaterMeta == null)
             {
-                theaterMeta = Resources.FindObjectsOfTypeAll<TheaterMetaScriptable>()
-                    .FirstOrDefault();
+                theaterMeta = Resources.FindObjectsOfTypeAll<TheaterMetaScriptable>().FirstOrDefault();
 
                 if (theaterMeta == null)
                     yield return null;
@@ -176,7 +175,7 @@ namespace Fulda1989
                         SpawnRatio = 1.25f,
                         BlockUntilMissionsCompleted = 0,
                         Prevalence = 1.1f,
-                        LogisticsModifierCurve = m1.LogisticsModifierCurve
+                        LogisticsModifierCurve = null
                     });
                 }
 
@@ -192,7 +191,7 @@ namespace Fulda1989
                         SpawnRatio = 0.9f,
                         BlockUntilMissionsCompleted = 3,
                         Prevalence = 1.1f,
-                        LogisticsModifierCurve = m1.LogisticsModifierCurve
+                        LogisticsModifierCurve = null
                     });
                 }
             }
