@@ -1,4 +1,4 @@
-﻿using Fulda1989;
+using Fulda1989;
 using GHPC.State;
 using GHPC.Weaponry;
 using GHPC.Weapons;
@@ -59,6 +59,7 @@ namespace Fulda1989
 
             string[] composite_names = new string[]
             {
+                "C-Tech Composite",
                 "Vorschlaghammer composite",
                 "Eber composite",
                 "Abrams special armor gen 1 hull front",
