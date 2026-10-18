@@ -1,10 +1,12 @@
-﻿using GHPC.Thermals;
+using GHPC.Thermals;
 using GHPC.Vehicle;
+using GHPC.Weaponry;
 using MelonLoader;
 using MelonLoader.Utils;
 using ModUtil;
 using System;
 using System.IO;
+using System.Linq;
 using UnityEngine;
 using VanillaAssetUtil.AssetUtil;
 
@@ -18,13 +20,21 @@ namespace Fulda1989
         internal static Material leo2kBlack3;
         public static Vehicle marder;
         public static Vehicle leopard2;
+        public static AmmoCodexScriptable ammo_codex_dm63;
         public override void LoadDynamicAssets()
         {
             MelonLogger.Msg("[LEO2K Assets] Loading Marder donor...");
 
-            marder = AssetUtilApi.LoadVanillaVehicle("MARDERA1PLUS");
+            marder = AssetUtilApi.LoadVanillaVehicle("MARDERA1PLUS", temp: true);
 
             MelonLogger.Msg("[LEO2K Assets] Marder donor result: " + $"{(marder != null ? marder.name : "NULL")}");
+
+            // Refresh the available ammunition resources after loading the donor.
+            Resources.LoadAll<AmmoCodexScriptable>("");
+
+            ammo_codex_dm63 = Resources.FindObjectsOfTypeAll<AmmoCodexScriptable>().FirstOrDefault(o => o != null && o.name == "ammo_20mm_DM63");
+
+            MelonLogger.Msg("[LEO2K Assets] DM63 codex after donor load: " + $"{(ammo_codex_dm63 != null ? ammo_codex_dm63.name : "NULL")}");
         }
 
         public override void LoadStaticAssets()
