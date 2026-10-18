@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using GHPC.Weapons;
 using UnityEngine;
@@ -58,7 +58,9 @@ namespace Fulda1989
             var composite_optimizations_dm33 = new List<AmmoType.ArmorOptimization>() { };
             var composite_optimizations_dm43k = new List<AmmoType.ArmorOptimization>() { };
 
-            string[] composite_names = new string[] {
+            string[] composite_names = new string[] 
+            {
+                "C-Tech Composite",
                 "Vorschlaghammer composite",
                 "Eber composite",
                 "Abrams special armor gen 1 hull front",
