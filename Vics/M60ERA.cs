@@ -6,17 +6,18 @@ using GHPC.Weaponry;
 using GHPC.Weapons;
 using MelonLoader;
 using MelonLoader.Utils;
-using ModUtil;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEngine;
+using System.Reflection;
+using BehaviorDesigner.Runtime.Tasks.Unity.UnityGameObject;
 
 namespace Fulda1989
 {
-    public class M60ERA : Module
+    public class M60ERA : ModUtil.Module
     {
         static MelonPreferences_Entry<bool> m60era_patch;
         static MelonPreferences_Entry<bool> m1era;
@@ -113,11 +114,13 @@ namespace Fulda1989
                         mantlet = vic.transform.Find("--RIG/hull/turret/main gun mantlet");
                     }
 
-                    if (vic.FriendlyName.Contains("M60A3 TTS"))
+                    bool isM60A3TtsEra = vic.FriendlyName.Contains("M60A3 TTS ERA");
+                    bool isM60A1RiseEra = vic.FriendlyName.Contains("M60A1 RISE(P) ERA");
+                    bool m900Applied = false;
+
+                    if (isM60A3TtsEra)
                     {
                         bool getsM900 = m900.Value && UnityEngine.Random.Range(0, 100) < Mathf.Clamp(m900_chance.Value, 0, 100);
-
-                        bool m900Applied = false;
 
                         if (getsM900)
                         {
@@ -126,18 +129,14 @@ namespace Fulda1989
                             if (m900Applied)
                             {
                                 Transform gunTransform = vic.transform.Find("M60A3TTS_rig/hull/turret/main gun mantlet/Gun Scripts/105mm Gun M68");
-
                                 WeaponSystem gun = gunTransform != null ? gunTransform.GetComponent<WeaponSystem>() : null;
 
                                 if (gun != null && gun.CodexEntry != null)
                                 {
                                     WeaponSystemCodexScriptable m68a1Codex = ScriptableObject.Instantiate(gun.CodexEntry);
-
                                     m68a1Codex.name = "gun_M68A1";
                                     m68a1Codex.FriendlyName = "105mm Gun M68A1";
                                     gun.CodexEntry = m68a1Codex;
-
-                                    //MelonLogger.Msg($"[M60 ERA] Set main gun designation to M68A1 on {vic.FriendlyName} (M900 equipped).");
                                 }
                                 else
                                 {
@@ -145,16 +144,15 @@ namespace Fulda1989
                                 }
                             }
                         }
+                    }
 
-                        // M833 is the fallback whenever M900 was not successfully applied.
-                        if (!m900Applied && m833_apfsds.Value)
-                        {
-                            ApplyApfsdsToRefurbishedM60(vic, FindM833Clip(), "M833 APFSDS-T");
-                        }
+                    // M833 is the fallback for either ERA variant whenever M900 was not applied.
+                    if (!m900Applied && m833_apfsds.Value && (isM60A1RiseEra || isM60A3TtsEra))
+                    {
+                        ApplyApfsdsToRefurbishedM60(vic, FindM833Clip(), "M833 APFSDS-T");
                     }
 
                     GameObject m1_full = GameObject.Instantiate(M60_Assets.m60_full);
-
                     Transform hull_m1 = M60_Assets.m60_full.transform.Find("HULL M1/HULL M1 ERA");
                     Transform turret_m1 = M60_Assets.m60_full.transform.Find("TURRET M1/TURRET M1 ERA");
                     Transform mantlet_m1 = M60_Assets.m60_full.transform.Find("MANTLET M1/MANTLET M1 ERA");
@@ -219,16 +217,23 @@ namespace Fulda1989
 
                         if (irLamp != null)
                         {
-                            GameObject.Destroy(irLamp.gameObject);
-                            //MelonLogger.Msg("[M60 ERA] Destroyed M60A1 RISE (Passive) IR lamp.");
-                        }
-                        else
-                        {
-                            MelonLogger.Warning("[M60 ERA] Could not find M60A1 IR lamp at the expected path.");
+                            foreach (Renderer renderer in irLamp.GetComponentsInChildren<Renderer>(true))
+                            {
+                                if (renderer != null)
+                                    renderer.enabled = false;
+                            }
+
+                            foreach (Light lampLight in irLamp.GetComponentsInChildren<Light>(true))
+                            {
+                                if (lampLight != null)
+                                    lampLight.enabled = false;
+                            }
+
+                            irLamp.gameObject.SetActive(false);
                         }
                     }
 
-                string[] objectsToDisable =
+                string[] objectsToDestroy =
                 {
                     "M60A3TTS_rig/hull/M60 hull net",
                     "M60A3TTS_rig/hull/turret/M60 turret net",
@@ -239,13 +244,13 @@ namespace Fulda1989
                     "us_20L_water",
                 };
 
-                    foreach (string path in objectsToDisable)
+                    foreach (string path in objectsToDestroy)
                     {
                         Transform obj = vic.transform.Find(path);
 
                         if (obj != null)
                         {
-                            obj.gameObject.SetActive(false);
+                            GameObject.Destroy(obj);
                         }
                     }
                     ApplyM60EraCamo(vic_go);
@@ -376,6 +381,7 @@ namespace Fulda1989
 
             return true;
         }
+
         public override void LoadStaticAssets()
         {
             if (!m60era_patch.Value) return;
