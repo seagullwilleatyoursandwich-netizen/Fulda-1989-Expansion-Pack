@@ -23,8 +23,7 @@ Contributors - ATLAS, Toxic_Cxnt05, Illuminati, Fcpx, Aeiou6
 # DEPENDENCIES - MUST INSTALL IN VERSIONS ABOVE V1.4.0!
 - VanillaAssetUtil - By ATLAS https://github.com/thebeninator/VanillaAssetUtil/releases/latest
 
-Hello! This project aims to expand the GHPC lineup by adding tanks all the way up to late 1989 (with some wiggle room for anachronistic details due to the alt history). 
-In this fictional scenario, based on the original games' 1985 setting, instead of the cold war kicking off immediately both NATO and the USSR begin small skirmishes and proxies for the next few years, massively accelerating development of known tanks and technologies.
+Hello! This project aims to expand the GHPC roster by adding new tanks from different periods of the Cold War, ranging from the early 1960’s to the late 1990’s!
 
 <img width="1920" height="1080" alt="Still 2026-07-09 061234_1 1 1" src="https://github.com/user-attachments/assets/66a7d73a-9ba9-4d8f-9902-8e312adad943" />
 ^vehicles featured are from ATLAS's M1A1 and Pact Increased Lethality mods respectively, they were used for the thumbnail because they're cool okay?^
@@ -69,7 +68,7 @@ By default, all converted M60 ERA's are given M833, but the M60A3 TTS *exclusive
 
 # PACT's Planned Lineup! 
 
-- # T-90 obr.1989 - What?! This tank doesnt belong in 1989! (wrong) (PLANNED) 
+- # T-90 obr.1992 - What?! This tank doesnt belong in (PLANNED) 
 - "Comrade, what if we made a T-72... but good?" 
 <img width="1600" height="1042" alt="image" src="https://github.com/user-attachments/assets/896ad1b6-61d8-4e62-9369-dcd14c3e6566" />
 
