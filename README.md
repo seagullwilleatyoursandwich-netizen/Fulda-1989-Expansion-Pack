@@ -1,7 +1,7 @@
 
 # Attributions/Credits 
 - ATLAS, numerous assets (Kontakt-5 plates, slat armour, etc.)
-- Fcpx + Illuminati, Fulda 1989 Team - Leopard 2K Olive drab texture.
+- Fcpx + Illuminati, Fulda Team - Leopard 2K Olive drab texture.
 - evt22, Sketchfab - Kontakt-1 bricks. (https://sketchfab.com/evt22)
 - Toxic_Cxnt05 for his help with providing a RH202 optic harmony patch. (THANK U CRO)
 - ATLAS for his help with code, (thank you cro)
@@ -12,7 +12,7 @@
 - GHPC community, for their ideas and suggestions <3 
 
 # Join the Gunner, HEAT, PC! Discord Server to interact with me in my thread for suggestions, votes, and sneak peeks on upcoming vehicles! discord.gg/ghpc
-# The Fulda 1989 Expansion Pack Project for Gunner, HEAT, PC! 
+# The Fulda Expansion Pack Project for Gunner, HEAT, PC! 
 
 Lead Developer/Founder - Ziron (ZironTheDerg)
 
@@ -49,7 +49,7 @@ By default, all converted M60 ERA's are given M833, but the M60A3 TTS *exclusive
 - The most infamous Leopard 2 variant makes its appearance in Gunner, HEAT, PC! This reflects the 6th batch (1988) of the Leopard 2A4's, equipped with C-Tech composite and DM33 APFSDS!
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c63cf451-2d40-4aec-be0b-b3428ae05fd0" />
 
-- # Leopard 2A4 140mm Prototype (ON HOLD)
+- # Leopard 2 KWS III (IN-DEVELOPMENT!)
 - Hans, this seems a bit overkill.  
 - Nonsense! The 140mm is perfectly reasonable.
 <img width="670" height="331" alt="image" src="https://github.com/user-attachments/assets/d391464a-7d51-4512-ae8c-0615de49c5fd" />
@@ -68,7 +68,7 @@ By default, all converted M60 ERA's are given M833, but the M60A3 TTS *exclusive
 
 # PACT's Planned Lineup! 
 
-- # T-90 obr.1992 - What?! This tank doesnt belong in (PLANNED) 
+- # T-90 obr.1992 (PLANNED) 
 - "Comrade, what if we made a T-72... but good?" 
 <img width="1600" height="1042" alt="image" src="https://github.com/user-attachments/assets/896ad1b6-61d8-4e62-9369-dcd14c3e6566" />
 
