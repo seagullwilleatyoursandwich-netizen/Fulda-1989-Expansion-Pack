@@ -16,6 +16,8 @@
 
 Lead Developer/Founder - Ziron (ZironTheDerg)
 
+Lead Artist - Illuminati (illuminati6759)
+
 QA - Illuminati, Seal, Rain "Raine"
 
 Contributors - ATLAS, Toxic_Cxnt05, Illuminati, Fcpx, Aeiou6
